@@ -17,7 +17,7 @@
             <li>Advanced</li>
         </techHediffsTags>
     </PawnKindDef>
- 
+
     <PawnKindDef ParentName="ATR_AndroidRaiderBase">
         <defName>ATR_RaiderSlaveT1</defName>
         <label>T1 Android Slave</label>
@@ -25,7 +25,7 @@
         <race>ATR_Tier1Android</race>
         <invNutrition>3.85</invNutrition>
         <combatPower>40</combatPower>
-        <minGenerationAge>20</minGenerationAge>	
+        <minGenerationAge>20</minGenerationAge>
         <aiAvoidCover>true</aiAvoidCover>
         <gearHealthRange>
             <min>0.5</min>
@@ -57,7 +57,7 @@
             <skipChance>0.9</skipChance>
             <subOptionsChooseOne>
                 <li>
-                    <thingDef>ATR_RepairStimSimple</thingDef>
+                    <thingDef>MHC_RepairStimSimple</thingDef>
                     <countRange>1</countRange>
                 </li>
             </subOptionsChooseOne>
@@ -94,7 +94,7 @@
             <skipChance>0.95</skipChance>
             <subOptionsChooseOne>
                 <li>
-                    <thingDef>ATR_RepairStimIntermediate</thingDef>
+                    <thingDef>MHC_RepairStimIntermediate</thingDef>
                     <countRange>1</countRange>
                 </li>
             </subOptionsChooseOne>
@@ -129,7 +129,7 @@
             <skipChance>0.9</skipChance>
             <subOptionsChooseOne>
                 <li>
-                <thingDef>ATR_RepairStimIntermediate</thingDef>
+                <thingDef>MHC_RepairStimIntermediate</thingDef>
                 <countRange>1</countRange>
                 </li>
             </subOptionsChooseOne>
@@ -175,7 +175,7 @@
             <skipChance>0.9</skipChance>
             <subOptionsChooseOne>
                 <li>
-                <thingDef>ATR_RepairStimIntermediate</thingDef>
+                <thingDef>MHC_RepairStimIntermediate</thingDef>
                 <countRange>1</countRange>
                 </li>
             </subOptionsChooseOne>
@@ -192,7 +192,7 @@
             </li>
         </skills>
     </PawnKindDef>
-    
+
     <PawnKindDef ParentName="ATR_AndroidRaiderBase">
         <defName>ATR_RaiderSoldierT4</defName>
         <label>T4 Android Raider</label>
@@ -230,7 +230,7 @@
             <skipChance>0.9</skipChance>
             <subOptionsChooseOne>
                 <li>
-                    <thingDef>ATR_RepairStimIntermediate</thingDef>
+                    <thingDef>MHC_RepairStimIntermediate</thingDef>
                     <countRange>1</countRange>
                 </li>
             </subOptionsChooseOne>
@@ -242,5 +242,5 @@
             </li>
         </skills>
     </PawnKindDef>
-  
+
 </Defs>

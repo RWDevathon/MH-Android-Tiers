@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-    
+
 	<ScenarioDef>
 		<defName>ATR_CrashlandedAndroids</defName>
 		<label>Crashlanding Androids</label>
@@ -35,7 +35,7 @@
 				</li>
 				<li Class="ScenPart_StartingThing_Defined">
 					<def>StartingThing_Defined</def>
-					<thingDef>ATR_RepairStimIntermediate</thingDef>
+					<thingDef>MHC_RepairStimIntermediate</thingDef>
 					<count>6</count>
 				</li>
 				<li Class="ScenPart_StartingThing_Defined">
@@ -58,7 +58,7 @@
                 </li>
 				<li Class="ScenPart_StartingThing_Defined">
 					<def>StartingThing_Defined</def>
-					<thingDef>ATR_PartPack</thingDef>
+					<thingDef>MHC_PartPack</thingDef>
 					<count>4</count>
 				</li>
 				<!-- Scatter some things near player start -->

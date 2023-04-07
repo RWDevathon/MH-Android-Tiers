@@ -78,23 +78,6 @@
                     <max>160</max>
                 </countRange>
             </li>
-            <li Class="StockGenerator_Animals">
-                <maxWildness>0.70</maxWildness>
-                <tradeTagsSell>
-                    <li>ATR_MechanicalAnimal</li>
-                </tradeTagsSell>
-                <tradeTagsBuy>
-                    <li>ATR_MechanicalAnimal</li>
-                </tradeTagsBuy>
-                <kindCountRange>
-                    <min>0</min>
-                    <max>2</max>
-                </kindCountRange>
-                <countRange>
-                    <min>1</min>
-                    <max>4</max>
-                </countRange>
-            </li>
             <li Class="StockGenerator_Category">
                 <categoryDef>Drugs</categoryDef>
             </li>
@@ -143,14 +126,14 @@
                 </countRange>
             </li>
             <li Class="StockGenerator_SingleDef">
-                <thingDef>ATR_RepairStimIntermediate</thingDef>
+                <thingDef>MHC_RepairStimIntermediate</thingDef>
                 <countRange>
                 <min>10</min>
                 <max>20</max>
                 </countRange>
             </li>
             <li Class="StockGenerator_SingleDef">
-                <thingDef>ATR_PartPack</thingDef>
+                <thingDef>MHC_PartPack</thingDef>
                 <countRange>
                     <min>5</min>
                     <max>15</max>
@@ -185,14 +168,14 @@
                 </countRange>
             </li>
             <li Class="StockGenerator_SingleDef">
-                <thingDef>ATR_RepairStimIntermediate</thingDef>
+                <thingDef>MHC_RepairStimIntermediate</thingDef>
                 <countRange>
                     <min>10</min>
                     <max>20</max>
                 </countRange>
             </li>
             <li Class="StockGenerator_SingleDef">
-                <thingDef>ATR_PartPack</thingDef>
+                <thingDef>MHC_PartPack</thingDef>
                 <countRange>
                     <min>5</min>
                     <max>15</max>
@@ -230,22 +213,6 @@
                     <min>200</min>
                     <max>4000</max>
                 </totalPriceRange>
-            </li>
-            <li Class="StockGenerator_Animals">
-                <tradeTagsSell>
-                    <li>ATR_MechanicalAnimal</li>
-                </tradeTagsSell>
-                <tradeTagsBuy>
-                    <li>ATR_MechanicalAnimal</li>
-                </tradeTagsBuy>
-                <kindCountRange>
-                    <min>1</min>
-                    <max>2</max>
-                </kindCountRange>
-                <countRange>
-                    <min>1</min>
-                    <max>5</max>
-                </countRange>
             </li>
             <li Class="StockGenerator_BuyExpensiveSimple" />
             <li Class="StockGenerator_BuyTradeTag"><tag>Art</tag></li>
@@ -296,7 +263,7 @@
                 </countRange>
             </li>
             <li Class="StockGenerator_SingleDef">
-                <thingDef>ATR_RepairStimAdvanced</thingDef>
+                <thingDef>MHC_RepairStimAdvanced</thingDef>
                 <countRange>
                     <min>2</min>
                     <max>8</max>
@@ -358,22 +325,6 @@
                 <countRange>
                     <min>0</min>
                     <max>1</max>
-                </countRange>
-            </li>
-            <li Class="StockGenerator_Animals">
-                <tradeTagsSell>
-                    <li>ATR_MechanicalAnimal</li>
-                </tradeTagsSell>
-                <tradeTagsBuy>
-                    <li>ATR_MechanicalAnimal</li>
-                </tradeTagsBuy>
-                <kindCountRange>
-                    <min>1</min>
-                    <max>4</max>
-                </kindCountRange>
-                <countRange>
-                    <min>1</min>
-                    <max>5</max>
                 </countRange>
             </li>
             <li Class="StockGenerator_BuyExpensiveSimple" />

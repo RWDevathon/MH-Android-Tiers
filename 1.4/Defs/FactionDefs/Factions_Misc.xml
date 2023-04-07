@@ -29,6 +29,13 @@
 				<li>Synthread</li>
 			</thingDefs>
 		</apparelStuffFilter>
+        <modExtensions>
+            <li Class="ATReforged.ATR_FactionExtension">
+                <canUseMechanicalSurrogates>true</canUseMechanicalSurrogates>
+                <canUseOrganicSurrogates>true</canUseOrganicSurrogates>
+                <membersShouldBeAndroids>true</membersShouldBeAndroids>
+            </li>
+        </modExtensions>
 	</FactionDef>
 
 	<FactionDef ParentName="FactionBase">
@@ -49,7 +56,7 @@
 		<canSiege>true</canSiege>
 		<canStageAttacks>true</canStageAttacks>
 		<factionIconPath>UI/Icons/Sites/AndroidBase</factionIconPath>
-		<factionNameMaker>NamerFactionRaiderAndroid</factionNameMaker>
+		<factionNameMaker>ATR_MarauderFactionNamer</factionNameMaker>
 		<settlementNameMaker>NamerSettlementPirate</settlementNameMaker>
         <basicMemberKind>ATR_RaiderSoldierT2</basicMemberKind>
 		<baseTraderKinds>
@@ -61,11 +68,7 @@
 			<li>(0.92, 0.92, 0.96)</li>
 		</colorSpectrum>
 		<leaderTitle>marauder captain</leaderTitle>
-        <naturalEnemy>true</naturalEnemy>
-        <permanentEnemyToEveryoneExcept>
-            <li>ATR_AndroidUnion</li>
-            <li>ATR_PlayerAndroidFaction</li>
-        </permanentEnemyToEveryoneExcept>
+        <permanentEnemy>true</permanentEnemy>
         <hostileToFactionlessHumanlikes>true</hostileToFactionlessHumanlikes>
 		<techLevel>Spacer</techLevel>
         <allowedCultures><li>Kriminul</li></allowedCultures>
@@ -139,6 +142,10 @@
             <li MayRequire="OskarPotocki.VFE.Empire" Class="VFEEmpire.FactionExtension_Deserters">
                 <canSendDeserters>false</canSendDeserters>
             </li>
+            <li Class="ATReforged.ATR_FactionExtension">
+                <canUseMechanicalSurrogates>true</canUseMechanicalSurrogates>
+                <membersShouldBeAndroids>true</membersShouldBeAndroids>
+            </li>
         </modExtensions>
 	</FactionDef>
 
@@ -164,8 +171,8 @@
 		<canStageAttacks>true</canStageAttacks>
 		<leaderTitle>coalition leader</leaderTitle>
 		<factionIconPath>World/WorldObjects/Expanding/Town</factionIconPath>
-		<factionNameMaker>NamerFactionCollectiveAndroid</factionNameMaker>
-		<settlementNameMaker>NamerSettlementCollectiveAndroid</settlementNameMaker>
+		<factionNameMaker>ATR_UnionFactionNamer</factionNameMaker>
+		<settlementNameMaker>ATR_UnionSettlementNamer</settlementNameMaker>
 		<techLevel>Spacer</techLevel>
         <allowedCultures><li>Rustican</li></allowedCultures>
         <disallowedMemes>
@@ -235,7 +242,7 @@
 					<ATR_AndroidT2CollectiveTrader>1</ATR_AndroidT2CollectiveTrader>
 				</traders>
 				<carriers>
-					<ATR_DroneTORT>6</ATR_DroneTORT>
+					<Muffalo>6</Muffalo>
 				</carriers>
 				<guards>
 					<ATR_AndroidT2CollectiveSoldier>5</ATR_AndroidT2CollectiveSoldier>
@@ -258,6 +265,10 @@
             <li MayRequire="OskarPotocki.VFE.Empire" Class="VFEEmpire.FactionExtension_Deserters">
                 <canSendDeserters>false</canSendDeserters>
             </li>
+            <li Class="ATReforged.ATR_FactionExtension">
+                <canUseMechanicalSurrogates>true</canUseMechanicalSurrogates>
+                <membersShouldBeAndroids>true</membersShouldBeAndroids>
+            </li>
         </modExtensions>
 	</FactionDef>
 
@@ -268,8 +279,8 @@
                 <filter>
                     <thingDefs>
                         <li>Silver</li>
-                        <li>ATR_RepairStimSimple</li>
-                        <li>ATR_RepairStimIntermediate</li>
+                        <li>MHC_RepairStimSimple</li>
+                        <li>MHC_RepairStimIntermediate</li>
                         <li>MealSurvivalPack</li>
                     </thingDefs>
                 </filter>

@@ -48,7 +48,7 @@
 			<SocialImpact>1.6</SocialImpact>
 			<ArmorRating_Blunt>0.20</ArmorRating_Blunt>
 			<ArmorRating_Sharp>0.50</ArmorRating_Sharp>
-            <ATR_MaintenanceRetention>1.8</ATR_MaintenanceRetention>
+            <MHC_MaintenanceRetention>1.8</MHC_MaintenanceRetention>
 			<Mass>72.5</Mass>
 		</statBases>
 		<tools>
@@ -105,10 +105,25 @@
 			<baseBodySize>1.1</baseBodySize>
 		</race>
 		<modExtensions>
-			<li Class="ATReforged.ATR_MechTweaker">
+            <li Class="MechHumanlikes.MHC_MechanicalPawnExtension">
                 <droneSkillLevel>14</droneSkillLevel>
                 <dronesCanHaveTraits>true</dronesCanHaveTraits>
-			</li>
+                <useCustomNoneGenderNameMakers>true</useCustomNoneGenderNameMakers>
+                <sapientNoneGenderNameMaker>ATR_AndroidNoneNames</sapientNoneGenderNameMaker>
+                <droneNoneGenderNameMaker>ATR_DroneNoneNames</droneNoneGenderNameMaker>
+                <letPawnKindHandleDroneBackstories>false</letPawnKindHandleDroneBackstories>
+                <droneChildhoodBackstoryDef>ATR_MechChildhoodDrone</droneChildhoodBackstoryDef>
+                <droneAdulthoodBackstoryDef>ATR_MechAdulthoodDrone</droneAdulthoodBackstoryDef>
+                <blacklistedNeeds>
+                    <li>DrugDesire</li>
+                    <li MayRequire="Dubwise.DubsBadHygiene">Hygiene</li>
+                    <li MayRequire="Dubwise.DubsBadHygiene">Bladder</li>
+                    <li MayRequire="Dubwise.DubsBadHygiene">DBHThirst</li>
+                </blacklistedNeeds>
+            </li>
+            <li Class="ATReforged.ATR_PawnExtension">
+                <isAndroid>true</isAndroid>
+            </li>
 		</modExtensions>
 		<butcherProducts>
 			<Plasteel>80</Plasteel>

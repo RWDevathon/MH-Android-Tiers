@@ -1,45 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-    <!-- Unfinished Thing for android production being paused without losing progress -->
-
-    <ThingDef ParentName="UnfinishedBase">
-        <defName>ATR_UnfinishedAndroid</defName>
-        <label>unfinished android</label>
-        <graphicData>
-            <texPath>Things/Items/UnfinishedAndroid</texPath>
-            <graphicClass>Graphic_Single</graphicClass>
-            <drawSize>(1,2.5)</drawSize>
-        </graphicData>
-        <stuffCategories Inherit="False" />
-    </ThingDef>
-
-    <ThingDef Name="ATR_GeneratorBase" Abstract="True">
-        <thingClass>ThingWithComps</thingClass>
-        <graphicData>
-            <texPath>Things/Alpha</texPath>
-            <graphicClass>Graphic_Single</graphicClass>
-        </graphicData>
-        <tickerType>Normal</tickerType>
-    </ThingDef>
-
-    <ThingDef Name="ATR_MakeableGeneratorBase" ParentName="ATR_GeneratorBase" Abstract="True">
-        <recipeMaker>
-            <unfinishedThingDef>ATR_UnfinishedAndroid</unfinishedThingDef>
-            <workAmount>16500</workAmount>
-            <workSkill>Crafting</workSkill>
-            <effectWorking>Repair</effectWorking>
-            <soundWorking>Recipe_Machining</soundWorking>
-            <workSpeedStat>ATR_MechanicalOperationSpeed</workSpeedStat>
-            <skillRequirements>
-                <Crafting>8</Crafting>
-            </skillRequirements>
-            <recipeUsers>
-                <li>ATR_MechanicalAssemblyPod</li>
-            </recipeUsers>
-        </recipeMaker>
-    </ThingDef>
-
     <ThingDef ParentName="ATR_MakeableGeneratorBase">
         <defName>ATR_T1AndroidGenerator</defName>
         <label>T1 Android</label>
@@ -59,7 +20,7 @@
             <ComponentSpacer>1</ComponentSpacer>
         </costList>
         <comps>
-            <li Class="ATReforged.CompProperties_GenericSpawner">
+            <li Class="ATReforged.CompProperties_PawnSpawner">
                 <pawnKind>ATR_T1Colonist</pawnKind>
             </li>
         </comps>
@@ -85,7 +46,7 @@
             <ComponentSpacer>4</ComponentSpacer>
         </costList>
         <comps>
-            <li Class="ATReforged.CompProperties_GenericSpawner">
+            <li Class="ATReforged.CompProperties_PawnSpawner">
                 <pawnKind>ATR_T2Colonist</pawnKind>
             </li>
         </comps>
@@ -114,7 +75,7 @@
             <ComponentSpacer>12</ComponentSpacer>
         </costList>
         <comps>
-            <li Class="ATReforged.CompProperties_GenericSpawner">
+            <li Class="ATReforged.CompProperties_PawnSpawner">
                 <pawnKind>ATR_T3Colonist</pawnKind>
             </li>
         </comps>
@@ -145,125 +106,8 @@
             <AIPersonaCore>1</AIPersonaCore>
         </costList>
         <comps>
-            <li Class="ATReforged.CompProperties_GenericSpawner">
+            <li Class="ATReforged.CompProperties_PawnSpawner">
                 <pawnKind>ATR_T4Colonist</pawnKind>
-            </li>
-        </comps>
-    </ThingDef>
-
-    <ThingDef ParentName="ATR_MakeableGeneratorBase">
-        <defName>ATR_WatchdogGenerator</defName>
-        <label>Watchdog Unit</label>
-        <description>An uninitialized mechanical wolf-analogue designed for guard, assault, search and destroy, and support duties. Watchdogs are intelligent enough and capable of charging.</description>
-        <graphicData>
-            <texPath>Things/Pawns/Animals/DroneWatchdog/DroneWatchdog_east</texPath>
-            <graphicClass>Graphic_Single</graphicClass>
-        </graphicData>
-        <recipeMaker>
-            <skillRequirements>
-                <Crafting>12</Crafting>
-            </skillRequirements>
-            <researchPrerequisite>ATR_MilitaryBiomimetics</researchPrerequisite>
-        </recipeMaker>
-        <costList>
-            <Steel>40</Steel>
-            <Plasteel>20</Plasteel>
-            <Uranium>10</Uranium>
-            <ComponentIndustrial>6</ComponentIndustrial>
-        </costList>
-        <comps>
-            <li Class="ATReforged.CompProperties_GenericSpawner">
-                <pawnKind>ATR_DroneWatchdog</pawnKind>
-            </li>
-        </comps>
-    </ThingDef>
-
-    <ThingDef ParentName="ATR_MakeableGeneratorBase">
-        <defName>ATR_TORTGenerator</defName>
-        <label>TORT Unit</label>
-        <description>An uninitialized mechanical tortoise-analogue designed for both short and long range transportation services. TORT units are intelligent enough and capable of charging.</description>
-        <graphicData>
-            <texPath>Things/Pawns/Animals/DroneTORT/DroneTORT_east</texPath>
-            <graphicClass>Graphic_Single</graphicClass>
-        </graphicData>
-        <recipeMaker>
-            <researchPrerequisite>ATR_UtilityBiomimetics</researchPrerequisite>
-        </recipeMaker>
-        <costList>
-            <Steel>80</Steel>
-            <Plasteel>20</Plasteel>
-            <ComponentIndustrial>6</ComponentIndustrial>
-        </costList>
-        <comps>
-            <li Class="ATReforged.CompProperties_GenericSpawner">
-                <pawnKind>ATR_DroneTORT</pawnKind>
-            </li>
-        </comps>
-    </ThingDef>
-
-    <ThingDef ParentName="ATR_MakeableGeneratorBase">
-        <defName>ATR_MineralUnitGenerator</defName>
-        <label>Mineral Unit</label>
-        <description>An uninitialized mechanical sheep-analogue designed for producing steel. This unit necessitates organic matter consumption, and can not charge.</description>
-        <graphicData>
-            <texPath>Things/Pawns/Animals/DroneMineralUnit/DroneMineralUnit_east</texPath>
-            <graphicClass>Graphic_Single</graphicClass>
-        </graphicData>
-        <recipeMaker>
-            <researchPrerequisite>ATR_UtilityBiomimetics</researchPrerequisite>
-        </recipeMaker>
-        <costList>
-            <Steel>100</Steel>
-            <Plasteel>20</Plasteel>
-            <ComponentIndustrial>8</ComponentIndustrial>
-        </costList>
-        <comps>
-            <li Class="ATReforged.CompProperties_GenericSpawner">
-                <pawnKind>ATR_DroneMineralUnit</pawnKind>
-            </li>
-        </comps>
-    </ThingDef>
-
-    <ThingDef ParentName="ATR_MakeableGeneratorBase">
-        <defName>ATR_NutritionUnitGenerator</defName>
-        <label>Nutrition Unit</label>
-        <description>An uninitialized mechanical cow-analogue designed for producing high-grade high-efficiency milk. This unit necessitates organic matter consumption, and can not charge.</description>
-        <graphicData>
-            <texPath>Things/Pawns/Animals/DroneNutritionUnit/DroneNutritionUnit_east</texPath>
-            <graphicClass>Graphic_Single</graphicClass>
-        </graphicData>
-        <recipeMaker>
-            <researchPrerequisite>ATR_UtilityBiomimetics</researchPrerequisite>
-        </recipeMaker>
-        <costList>
-            <Steel>80</Steel>
-            <ComponentIndustrial>6</ComponentIndustrial>
-        </costList>
-        <comps>
-            <li Class="ATReforged.CompProperties_GenericSpawner">
-                <pawnKind>ATR_DroneNutritionUnit</pawnKind>
-            </li>
-        </comps>
-    </ThingDef>
-
-    <ThingDef ParentName="ATR_MakeableGeneratorBase">
-        <defName>ATR_ChemUnitGenerator</defName>
-        <label>Chemical processing unit</label>
-        <description>An uninitialized mechanical hen-analogue designed for producing neutroamine or chemfuel precursors. This unit necessitates organic matter consumption, and can not charge.</description>
-        <graphicData>
-            <texPath>Things/Pawns/Animals/DroneChemUnit/DroneChemUnit_east</texPath>
-            <graphicClass>Graphic_Single</graphicClass>
-        </graphicData>
-        <recipeMaker>
-            <researchPrerequisite>ATR_UtilityBiomimetics</researchPrerequisite>
-        </recipeMaker>
-        <costList>
-            <Steel>40</Steel>
-            <ComponentIndustrial>4</ComponentIndustrial>
-        </costList>
-        <comps>
-            <li Class="ATReforged.CompProperties_GenericSpawner">
-                <pawnKind>ATR_DroneChemUnit</pawnKind>
             </li>
         </comps>
     </ThingDef>
@@ -275,8 +119,10 @@
         <label>MicroScyther</label>
         <description>An uninitialized mechanical drone designed for swarming targets. They have a severely limited battery lifespan, yield nothing when destroyed, and attack anything that isn't a microscyther.</description>
         <comps>
-            <li>
-                <compClass>ATReforged.CompSpawnerMicroscyther</compClass>
+            <li Class="ATReforged.CompProperties_PawnSpawnerPermanentHostile">
+                <pawnKind>ATR_MicroScyther</pawnKind>
+                <hediffDefToSpawnWith>ATR_RemainingCharge</hediffDefToSpawnWith>
+                <hediffSeverity>0.25</hediffSeverity>
             </li>
         </comps>
     </ThingDef>

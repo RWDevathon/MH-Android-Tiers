@@ -34,7 +34,7 @@
         </comps>
         <projectileWhenLoaded>ATR_MicroscytherShell_round</projectileWhenLoaded>
         <recipeMaker>
-            <researchPrerequisite>ATR_MilitaryBiomimetics</researchPrerequisite>
+            <researchPrerequisite>Mortars</researchPrerequisite>
             <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
             <effectWorking>Repair</effectWorking>
             <soundWorking>Recipe_Machining</soundWorking>

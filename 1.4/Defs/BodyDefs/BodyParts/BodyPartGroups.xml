@@ -6,7 +6,7 @@
         <label>left wing</label>
         <listOrder>101</listOrder>
     </BodyPartGroupDef>
-    
+
     <BodyPartGroupDef>
         <defName>ATR_MechanicalRightWing</defName>
         <label>right wing</label>

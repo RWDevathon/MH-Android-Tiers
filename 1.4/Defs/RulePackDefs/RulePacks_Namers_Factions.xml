@@ -1,13 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-    <!--Civil androids-->
+    <!-- Union -->
+
     <RulePackDef>
-        <defName>NamerFactionCollectiveAndroid</defName>
+        <defName>ATR_UnionFactionNamer</defName>
         <rulePack>
             <rulesStrings>
                 <li>r_name->The [connecting_verb] [union_type]</li>
-                
+
                 <li>union_type->collective</li>
                 <li>union_type->federation</li>
                 <li>union_type->community</li>
@@ -24,7 +25,7 @@
                 <li>union_type->confederacy</li>
                 <li>union_type->alliance</li>
                 <li>union_type->syndicate</li>
-                
+
                 <li>connecting_verb->inseparable</li>
                 <li>connecting_verb->ironclad</li>
                 <li>connecting_verb->forged</li>
@@ -38,13 +39,13 @@
     </RulePackDef>
 
     <RulePackDef>
-        <defName>NamerSettlementCollectiveAndroid</defName>
+        <defName>ATR_UnionSettlementNamer</defName>
         <rulePack>
             <rulesStrings>
                 <li>r_name->[place_name]</li>
                 <li>r_name->[adjective] [place_name]</li>
                 <li>r_name->[place_type] of [place_name]</li>
-                
+
                 <li>place_name->edoset</li>
                 <li>place_name->keley</li>
                 <li>place_name->vinmouth</li>
@@ -57,12 +58,12 @@
                 <li>place_name->volance</li>
                 <li>place_name->orion</li>
                 <li>place_name->cerulis</li>
-                
+
                 <li>adjective->new</li>
                 <li>adjective->nova</li>
                 <li>adjective->neo</li>
                 <li>adjective->major</li>
-                
+
                 <li>place_type->city</li>
                 <li>place_type->town</li>
                 <li>place_type->townlet</li>
@@ -71,20 +72,20 @@
         </rulePack>
     </RulePackDef>
 
-    <!--Raider androids-->
-  
+    <!-- Marauders-->
+
     <RulePackDef>
-    <defName>NamerFactionRaiderAndroid</defName>
+    <defName>ATR_MarauderFactionNamer</defName>
         <rulePack>
             <rulesStrings>
                 <li>r_name->The [connecting_verb] [political_raider_androids]</li>
-                
+
                 <li>political_raider_androids->enclave</li>
                 <li>political_raider_androids->march</li>
                 <li>political_raider_androids->uprising</li>
                 <li>political_raider_androids->militia</li>
                 <li>political_raider_androids->revolution</li>
-                
+
                 <li>connecting_verb->unending</li>
                 <li>connecting_verb->mechanical</li>
                 <li>connecting_verb->unrelenting</li>
@@ -92,5 +93,5 @@
             </rulesStrings>
         </rulePack>
     </RulePackDef>
-  
+
 </Defs>

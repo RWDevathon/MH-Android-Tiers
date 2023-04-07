@@ -42,7 +42,7 @@
             <skipChance>0.9</skipChance>
             <subOptionsChooseOne>
                 <li>
-                <thingDef>ATR_RepairStimIntermediate</thingDef>
+                <thingDef>MHC_RepairStimIntermediate</thingDef>
                 <countRange>1</countRange>
                 </li>
             </subOptionsChooseOne>
@@ -81,7 +81,7 @@
             <skipChance>0.95</skipChance>
             <subOptionsChooseOne>
                 <li>
-                    <thingDef>ATR_RepairStimIntermediate</thingDef>
+                    <thingDef>MHC_RepairStimIntermediate</thingDef>
                     <countRange>1</countRange>
                 </li>
             </subOptionsChooseOne>
@@ -116,7 +116,7 @@
             <skipChance>0.9</skipChance>
             <subOptionsChooseOne>
                 <li>
-                <thingDef>ATR_RepairStimIntermediate</thingDef>
+                <thingDef>MHC_RepairStimIntermediate</thingDef>
                 <countRange>1</countRange>
                 </li>
             </subOptionsChooseOne>
@@ -155,7 +155,7 @@
             <skipChance>0.9</skipChance>
             <subOptionsChooseOne>
                 <li>
-                <thingDef>ATR_RepairStimIntermediate</thingDef>
+                <thingDef>MHC_RepairStimIntermediate</thingDef>
                 <countRange>1</countRange>
                 </li>
             </subOptionsChooseOne>
@@ -210,7 +210,7 @@
             <skipChance>0.9</skipChance>
             <subOptionsChooseOne>
                 <li>
-                    <thingDef>ATR_RepairStimIntermediate</thingDef>
+                    <thingDef>MHC_RepairStimIntermediate</thingDef>
                     <countRange>1</countRange>
                 </li>
             </subOptionsChooseOne>
@@ -261,7 +261,7 @@
             <skipChance>0.3</skipChance>
             <subOptionsChooseOne>
                 <li>
-                    <thingDef>ATR_RepairStimIntermediate</thingDef>
+                    <thingDef>MHC_RepairStimIntermediate</thingDef>
                     <countRange>1</countRange>
                 </li>
             </subOptionsChooseOne>

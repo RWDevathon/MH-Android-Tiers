@@ -20,18 +20,6 @@
 		</workDisables>
 	</BackstoryDef>
 
-	<BackstoryDef>
-		<defName>ATR_MechChildhoodFreshBlank</defName>
-		<title>Fresh Blank</title>
-		<titleShort>Unit</titleShort>
-		<baseDesc>{PAWN_nameDef} was created to be a perfectly blank slate, ready for its next owner to form its first and only memories with.</baseDesc>
-		<slot>Childhood</slot>
-		<spawnCategories>
-			<li>ATR_GeneralAndroids</li>
-            <li>SurrogateSoldier</li>
-		</spawnCategories>
-	</BackstoryDef>
-
     <!-- Adulthoods -->
 
 	<BackstoryDef>
@@ -44,16 +32,5 @@
 			<li>ATR_Drone</li>
 		</spawnCategories>
 	</BackstoryDef>
-
-    <BackstoryDef>
-        <defName>ATR_MechAdulthoodBlank</defName>
-        <title>Adult Blank</title>
-		<titleShort>Unit</titleShort>
-		<baseDesc>This unit has neither intelligence nor memory. It is entirely devoid of character and utility.</baseDesc>
-		<slot>Adulthood</slot>
-        <spawnCategories>
-            <li>SurrogateSoldier</li>
-        </spawnCategories>
-    </BackstoryDef>
 
 </Defs>

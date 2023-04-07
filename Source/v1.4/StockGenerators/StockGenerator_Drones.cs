@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using Verse;
+using MechHumanlikes;
 
 namespace ATReforged
 {
@@ -24,7 +25,7 @@ namespace ATReforged
             }
 
             // Get an enumerable of all drone kinds that are actually drones, which is non-static as settings may change at any time.
-            IEnumerable<PawnKindDef> usableKinds = droneKinds.Where(kindDef => Utils.IsConsideredMechanicalDrone(kindDef.race));
+            IEnumerable<PawnKindDef> usableKinds = droneKinds.Where(kindDef => MHC_Utils.IsConsideredMechanicalDrone(kindDef.race));
 
             for (int i = countRange.RandomInRange; i >= 0; i--)
             {

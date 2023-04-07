@@ -29,25 +29,21 @@
                 <countRange>100~400</countRange>
             </li>
 			<li Class="StockGenerator_SingleDef">
-                <thingDef>ATR_PartPack</thingDef>
+                <thingDef>MHC_PartPack</thingDef>
                 <countRange>8~40</countRange>
 			</li>
 			<li Class="StockGenerator_SingleDef">
-                <thingDef>ATR_RepairStimSimple</thingDef>
+                <thingDef>MHC_RepairStimSimple</thingDef>
                 <countRange>20~80</countRange>
 			</li>
 			<li Class="StockGenerator_SingleDef">
-				<thingDef>ATR_RepairStimIntermediate</thingDef>
+				<thingDef>MHC_RepairStimIntermediate</thingDef>
 				<countRange>5~20</countRange>
 			</li>
 			<li Class="StockGenerator_SingleDef">
-				<thingDef>ATR_RepairStimAdvanced</thingDef>
+				<thingDef>MHC_RepairStimAdvanced</thingDef>
 				<countRange>5~30</countRange>
 			</li>
-            <li Class="StockGenerator_SingleDef">
-              <thingDef>ATR_ChemCapsule</thingDef>
-              <countRange>100~600</countRange>
-            </li>
 			<li Class="StockGenerator_SingleDef">
 				<thingDef>ATR_MicroscytherShell</thingDef>
 				<countRange>-5~10</countRange>
@@ -88,19 +84,6 @@
                     <li>ATR_T4Colonist</li>
                 </droneKinds>
             </li>
-
-            <!-- Animals -->
-			<li Class="StockGenerator_Animals">
-				<checkTemperature>false</checkTemperature>
-				<tradeTagsSell>
-					<li>ATR_MechanicalAnimal</li>
-				</tradeTagsSell>
-                <tradeTagsBuy>
-                  <li>ATR_MechanicalAnimal</li>
-                </tradeTagsBuy>
-				<kindCountRange>1~2</kindCountRange>
-				<countRange>2~5</countRange>
-			</li>
 
             <!-- Buying -->
             <li Class="StockGenerator_BuyExpensiveSimple" />

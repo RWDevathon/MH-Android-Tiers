@@ -1,22 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-    <PawnKindDef Name="BaseNewbootPlayerPawnKind" ParentName="BasePlayerPawnKind" Abstract="True">
-        <label>Android colonist</label>
-		<backstoryFiltersOverride>
-            <li>
-                <categories>
-                    <li>ATR_NewbootAndroids</li>
-                </categories>
-            </li>
-		</backstoryFiltersOverride>
-		<maxGenerationAge>1</maxGenerationAge>
-		<defaultFactionType>ATR_PlayerAndroidFaction</defaultFactionType>
-		<chemicalAddictionChance>0.00</chemicalAddictionChance>
-		<backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
-		<initialResistanceRange>13~21</initialResistanceRange>
-    </PawnKindDef>
-
 	<PawnKindDef ParentName="BaseNewbootPlayerPawnKind">
 		<defName>ATR_T1Colonist</defName>
 		<label>T1 Newboot Colonist</label>
@@ -47,25 +31,6 @@
 
 	<!--Androids With Real Backstories-->
 
-    <PawnKindDef Name="ATR_BaseMechPlayerPawnKind" ParentName="BasePlayerPawnKind" Abstract="True">
-        <label>Android colonist</label>
-		<minGenerationAge>20</minGenerationAge>
-		<defaultFactionType>ATR_PlayerAndroidFaction</defaultFactionType>
-		<chemicalAddictionChance>0.00</chemicalAddictionChance>
-		<backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
-        <initialResistanceRange>13~21</initialResistanceRange>
-		<backstoryFiltersOverride>
-		  <li>
-			<categories>
-			  <li>ATR_GeneralAndroids</li>
-			</categories>
-		  </li>
-		</backstoryFiltersOverride>
-        <apparelTags>
-            <li>IndustrialBasic</li>
-        </apparelTags>
-    </PawnKindDef>
-
 	<PawnKindDef ParentName="ATR_BaseMechPlayerPawnKind">
 		<defName>ATR_T1Refugee</defName>
 		<label>T1 Android Colonist</label>
@@ -93,23 +58,5 @@
 		<race>ATR_Tier4Android</race>
         <combatPower>75</combatPower>
 	</PawnKindDef>
-
-    <!-- Special PawnKinds -->
-
-    <PawnKindDef ParentName="BasePlayerPawnKind">
-        <defName>ATR_FractalWitness</defName>
-        <label>Fractal Witness</label>
-		<chemicalAddictionChance>0.00</chemicalAddictionChance>
-		<backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
-        <initialResistanceRange>13~21</initialResistanceRange>
-        <extraSkillLevels>6</extraSkillLevels>
-		<backstoryFiltersOverride>
-            <li>
-                <categories>
-                    <li>ATR_FractalWitness</li>
-                </categories>
-            </li>
-		</backstoryFiltersOverride>
-    </PawnKindDef>
 
 </Defs>

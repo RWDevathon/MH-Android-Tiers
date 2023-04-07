@@ -47,7 +47,7 @@
 			<SocialImpact>0.1</SocialImpact>
 			<ArmorRating_Blunt>0.05</ArmorRating_Blunt>
 			<ArmorRating_Sharp>0.15</ArmorRating_Sharp>
-            <ATR_MaintenanceRetention>0.75</ATR_MaintenanceRetention>
+            <MHC_MaintenanceRetention>0.75</MHC_MaintenanceRetention>
 			<Mass>32.5</Mass>
 		</statBases>
 		<tools>
@@ -104,9 +104,31 @@
 			<baseBodySize>0.5</baseBodySize>
 		</race>
 		<modExtensions>
-			<li Class="ATReforged.ATR_MechTweaker">
-                <droneSkillLevel>8</droneSkillLevel>
-			</li>
+            <li Class="MechHumanlikes.MHC_MechanicalPawnExtension">
+                <useCustomNoneGenderNameMakers>true</useCustomNoneGenderNameMakers>
+                <sapientNoneGenderNameMaker>ATR_AndroidNoneNames</sapientNoneGenderNameMaker>
+                <droneNoneGenderNameMaker>ATR_DroneNoneNames</droneNoneGenderNameMaker>
+                <letPawnKindHandleDroneBackstories>false</letPawnKindHandleDroneBackstories>
+                <droneChildhoodBackstoryDef>ATR_MechChildhoodDrone</droneChildhoodBackstoryDef>
+                <droneAdulthoodBackstoryDef>ATR_MechAdulthoodDrone</droneAdulthoodBackstoryDef>
+                <blacklistedNeeds>
+                    <li>DrugDesire</li>
+                    <li MayRequire="Dubwise.DubsBadHygiene">Hygiene</li>
+                    <li MayRequire="Dubwise.DubsBadHygiene">Bladder</li>
+                    <li MayRequire="Dubwise.DubsBadHygiene">DBHThirst</li>
+                </blacklistedNeeds>
+                <blacklistedSapientNeeds>
+                    <li>RoomSize</li>
+                    <li>Joy</li>
+                    <li>Beauty</li>
+                    <li>Comfort</li>
+                    <li>Outdoors</li>
+                    <li>Indoors</li>
+                </blacklistedSapientNeeds>
+            </li>
+            <li Class="ATReforged.ATR_PawnExtension">
+                <isAndroid>true</isAndroid>
+            </li>
 		</modExtensions>
 		<butcherProducts>
             <Steel>30</Steel>

@@ -82,7 +82,7 @@
                 </countRange>
             </li>
             <li Class="StockGenerator_SingleDef">
-                <thingDef>ATR_PartPack</thingDef>
+                <thingDef>MHC_PartPack</thingDef>
                 <countRange>
                     <min>-30</min>
                     <max>20</max>
@@ -96,7 +96,7 @@
                 </countRange>
             </li>
             <li Class="StockGenerator_SingleDef">
-                <thingDef>ATR_RepairStimIntermediate</thingDef>
+                <thingDef>MHC_RepairStimIntermediate</thingDef>
                 <countRange>
                     <min>25</min>
                     <max>50</max>
@@ -167,22 +167,6 @@
             <countRange>
                 <min>1</min>
                 <max>2</max>
-            </countRange>
-        </li>
-        <li Class="StockGenerator_Animals">
-            <tradeTagsSell>
-                <li>ATR_MechanicalAnimal</li>
-            </tradeTagsSell>
-            <tradeTagsBuy>
-                <li>ATR_MechanicalAnimal</li>
-            </tradeTagsBuy>
-            <kindCountRange>
-                <min>2</min>
-                <max>4</max>
-            </kindCountRange>
-            <countRange>
-                <min>3</min>
-                <max>8</max>
             </countRange>
         </li>
         <li Class="StockGenerator_Category">
