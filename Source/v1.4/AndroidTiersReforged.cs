@@ -1,6 +1,4 @@
-﻿using HarmonyLib;
-using System.Reflection;
-using Verse;
+﻿using Verse;
 using UnityEngine;
 using RimWorld;
 
@@ -14,7 +12,6 @@ namespace ATReforged
         public ATReforged(ModContentPack content) : base(content)
         {
             ModSingleton = this;
-            new Harmony("ATReforged").PatchAll(Assembly.GetExecutingAssembly());
         }
         
         // Handles the localization for the mod's name in the list of mods in the mod settings page.

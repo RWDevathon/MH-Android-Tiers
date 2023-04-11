@@ -9,7 +9,6 @@ Android Tiers itself is a mod that intends to add mechanical colonists, animals,
 
 ## Features
 * Four tiers of craftable androids to interact, fight, and recruit across 2 new factions and 1 player scenario.
-* New security options such as launching or laying traps of swarms of microscythers for unwary raiders.
 
 ## Links
 [Discord](https://discord.gg/udNCpbkABT)

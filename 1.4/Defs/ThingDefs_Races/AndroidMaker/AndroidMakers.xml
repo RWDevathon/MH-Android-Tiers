@@ -112,19 +112,4 @@
         </comps>
     </ThingDef>
 
-    <!-- Non-Manufacturable, only generated via Microscyther shell, so inherit only from the Generator Base. -->
-
-    <ThingDef ParentName="ATR_GeneratorBase">
-        <defName>ATR_MicroScytherGenerator</defName>
-        <label>MicroScyther</label>
-        <description>An uninitialized mechanical drone designed for swarming targets. They have a severely limited battery lifespan, yield nothing when destroyed, and attack anything that isn't a microscyther.</description>
-        <comps>
-            <li Class="ATReforged.CompProperties_PawnSpawnerPermanentHostile">
-                <pawnKind>ATR_MicroScyther</pawnKind>
-                <hediffDefToSpawnWith>ATR_RemainingCharge</hediffDefToSpawnWith>
-                <hediffSeverity>0.25</hediffSeverity>
-            </li>
-        </comps>
-    </ThingDef>
-
 </Defs>

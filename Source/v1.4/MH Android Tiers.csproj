@@ -181,13 +181,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Components\ThingComps\CompProperties_PawnSpawnerPermanentHostile.cs" />
     <Compile Include="Components\ThingComps\CompScorchPack.cs" />
     <Compile Include="AndroidTiersReforged.cs" />
     <Compile Include="StockGenerators\StockGenerator_Drones.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ATReforged_Settings.cs" />
-    <Compile Include="Components\ThingComps\CompPawnSpawnerPermanentHostile.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

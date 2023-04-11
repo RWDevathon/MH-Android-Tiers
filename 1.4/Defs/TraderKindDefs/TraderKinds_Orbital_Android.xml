@@ -44,16 +44,11 @@
 				<thingDef>MHC_RepairStimAdvanced</thingDef>
 				<countRange>5~30</countRange>
 			</li>
-			<li Class="StockGenerator_SingleDef">
-				<thingDef>ATR_MicroscytherShell</thingDef>
-				<countRange>-5~10</countRange>
-			</li>
 
             <!-- Implants -->
-            <li Class="StockGenerator_Tag">
-                <tradeTag>TechHediff</tradeTag>
-                <thingDefCountRange>3~5</thingDefCountRange>
-                <countRange>1~1</countRange>
+            <li Class="StockGenerator_MarketValue">
+                <tradeTag>ATR_MechanicalParts</tradeTag>
+                <countRange>3~5</countRange>
             </li>
 
             <!-- Exotic -->

@@ -49,6 +49,8 @@
 			<ArmorRating_Blunt>0.20</ArmorRating_Blunt>
 			<ArmorRating_Sharp>0.50</ArmorRating_Sharp>
             <MHC_MaintenanceRetention>1.8</MHC_MaintenanceRetention>
+            <MHC_NutritionalIntakeEfficiency>0.25</MHC_NutritionalIntakeEfficiency>
+            <MHC_ChargingSpeed>2</MHC_ChargingSpeed>
 			<Mass>72.5</Mass>
 		</statBases>
 		<tools>
