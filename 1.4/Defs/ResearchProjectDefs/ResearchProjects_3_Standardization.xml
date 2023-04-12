@@ -13,7 +13,7 @@
             <li>ATR_MechanicalStandardization</li>
             <li>Fabrication</li>
         </prerequisites>
-		<researchViewX>5</researchViewX>
+		<researchViewX>3</researchViewX>
 		<researchViewY>2</researchViewY>
         <requiredResearchFacilities>
             <li>MultiAnalyzer</li>

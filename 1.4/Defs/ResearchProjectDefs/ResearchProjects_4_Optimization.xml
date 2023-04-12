@@ -12,7 +12,7 @@
             <li>ATR_MechanicalOptimization</li>
             <li>ATR_T2Androids</li>
         </prerequisites>
-		<researchViewX>7</researchViewX>
+		<researchViewX>6</researchViewX>
 		<researchViewY>2</researchViewY>
 		<requiredResearchFacilities>
 			<li>MultiAnalyzer</li>
@@ -30,8 +30,8 @@
 			<li>ATR_T3Androids</li>
 			<li>ShipComputerCore</li>
 		</prerequisites>
-		<researchViewX>9</researchViewX>
-		<researchViewY>2</researchViewY>
+		<researchViewX>7</researchViewX>
+		<researchViewY>2.5</researchViewY>
 		<requiredResearchFacilities>
 			<li>MultiAnalyzer</li>
 		</requiredResearchFacilities>
