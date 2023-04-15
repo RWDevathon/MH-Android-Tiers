@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ATR_Tier1Android.label>Андроид T1</ATR_Tier1Android.label>
+  <ATR_Tier1Android.description>Андроиды первого уровня - это просто человекоподобные машины, созданные для имитации общего образа и минимальных возможностей человечества. Не обладая настоящим разумом, многие считают их очень умными и отзывчивыми животными. Их существование - служить, и они делают это безропотно.\n\nВследствие минимальных инвестиций и дизайна, андроиды первого уровня страдают от недостатков в обслуживании и эффективности, оставляя их относительно устаревшими, более долговечными итерациями - за исключением работ, где явно требуются или желательны минимальные спецификации и ресурсы.</ATR_Tier1Android.description>
+  <ATR_Tier1Android.tools.0.label>правый кулак</ATR_Tier1Android.tools.0.label>
+  <ATR_Tier1Android.tools.1.label>левый кулак</ATR_Tier1Android.tools.1.label>
+  <ATR_Tier1Android.tools.2.label>голова</ATR_Tier1Android.tools.2.label>
+
+
+</LanguageData>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ATR_Tier2Android.label>Андроид T2</ATR_Tier2Android.label>
+  <ATR_Tier2Android.description>Наиболее распространенный уровень андроидов, андроиды второго уровня классифицируются как андроиды с самыми низкими характеристиками, необходимыми для полностью автономного существования. Когда они полностью одеты или видны издалека, их легко принять за низкорослых, более тощих людей. Действительно, интеллекты второго уровня часто наиболее похожи на людей и чаще всего стремятся к интеграции в человеческое общество.</ATR_Tier2Android.description>
+  <ATR_Tier2Android.tools.0.label>правый кулак</ATR_Tier2Android.tools.0.label>
+  <ATR_Tier2Android.tools.1.label>левый кулак</ATR_Tier2Android.tools.1.label>
+  <ATR_Tier2Android.tools.2.label>голова</ATR_Tier2Android.tools.2.label>
+
+
+</LanguageData>
