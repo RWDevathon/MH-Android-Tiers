@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ATR_RaiderSlaveT1.label>Андроид T1 Раб</ATR_RaiderSlaveT1.label>
+  <ATR_RaiderSlaveT1.labelPlural>Порабощенный андроид</ATR_RaiderSlaveT1.labelPlural>
+  <ATR_RaiderSlaveT1.labelMale>мужчина Андроид T1 Раб</ATR_RaiderSlaveT1.labelMale>
+  <ATR_RaiderSlaveT1.labelMalePlural>мужчина порабощенный андроид</ATR_RaiderSlaveT1.labelMalePlural>
+  <ATR_RaiderSlaveT1.labelFemale>женщина Андроид T1 Раб</ATR_RaiderSlaveT1.labelFemale>
+  <ATR_RaiderSlaveT1.labelFemalePlural>женщина порабощенный андроид</ATR_RaiderSlaveT1.labelFemalePlural>
+
+  <ATR_RaiderSoldierT1.label>Андроид T1 Рейдер</ATR_RaiderSoldierT1.label>
+  <ATR_RaiderSoldierT1.labelPlural>Андроиды-рейдеры</ATR_RaiderSoldierT1.labelPlural>
+  <ATR_RaiderSoldierT1.labelMale>мужчина Андроид T1 Рейдер</ATR_RaiderSoldierT1.labelMale>
+  <ATR_RaiderSoldierT1.labelMalePlural>мужчина Андроиды-рейдеры</ATR_RaiderSoldierT1.labelMalePlural>
+  <ATR_RaiderSoldierT1.labelFemale>женщина Андроид T1 Рейдер</ATR_RaiderSoldierT1.labelFemale>
+  <ATR_RaiderSoldierT1.labelFemalePlural>женщина Андроиды-рейдеры</ATR_RaiderSoldierT1.labelFemalePlural>
+
+  <ATR_RaiderSoldierT2.label>Андроид T2 Рейдер</ATR_RaiderSoldierT2.label>
+  <ATR_RaiderSoldierT2.labelPlural>Андроиды-рейдеры</ATR_RaiderSoldierT2.labelPlural>
+  <ATR_RaiderSoldierT2.labelMale>мужчина Андроид T2 Рейдер</ATR_RaiderSoldierT2.labelMale>
+  <ATR_RaiderSoldierT2.labelMalePlural>мужчина Андроиды-рейдеры</ATR_RaiderSoldierT2.labelMalePlural>
+  <ATR_RaiderSoldierT2.labelFemale>женщина Андроид T2 Рейдер</ATR_RaiderSoldierT2.labelFemale>
+  <ATR_RaiderSoldierT2.labelFemalePlural>женщина Андроиды-рейдеры</ATR_RaiderSoldierT2.labelFemalePlural>
+
+  <ATR_RaiderSoldierT3.label>Андроид T3 Рейдер</ATR_RaiderSoldierT3.label>
+  <ATR_RaiderSoldierT3.labelPlural>Андроиды-рейдеры</ATR_RaiderSoldierT3.labelPlural>
+  <ATR_RaiderSoldierT3.labelMale>мужчина Андроид T3 Рейдер</ATR_RaiderSoldierT3.labelMale>
+  <ATR_RaiderSoldierT3.labelMalePlural>мужчина Андроиды-рейдеры</ATR_RaiderSoldierT3.labelMalePlural>
+  <ATR_RaiderSoldierT3.labelFemale>женщина Андроид T3 Рейдер</ATR_RaiderSoldierT3.labelFemale>
+  <ATR_RaiderSoldierT3.labelFemalePlural>женщина Андроиды-рейдеры</ATR_RaiderSoldierT3.labelFemalePlural>
+
+  <ATR_RaiderSoldierT4.label>Андроид T4 Рейдер</ATR_RaiderSoldierT4.label>
+  <ATR_RaiderSoldierT4.labelPlural>Андроиды-рейдеры</ATR_RaiderSoldierT4.labelPlural>
+  <ATR_RaiderSoldierT4.labelMale>мужчина Андроид T4 Рейдер</ATR_RaiderSoldierT4.labelMale>
+  <ATR_RaiderSoldierT4.labelMalePlural>мужчина Андроиды-рейдеры</ATR_RaiderSoldierT4.labelMalePlural>
+  <ATR_RaiderSoldierT4.labelFemale>женщина Андроид T4 Рейдер</ATR_RaiderSoldierT4.labelFemale>
+  <ATR_RaiderSoldierT4.labelFemalePlural>женщина Андроиды-рейдеры</ATR_RaiderSoldierT4.labelFemalePlural>
+
+
+</LanguageData>

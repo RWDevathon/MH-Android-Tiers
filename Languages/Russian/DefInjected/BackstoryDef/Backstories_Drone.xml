@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Childhoods -->
+
+  <ATR_MechChildhoodDrone.title>Дрон</ATR_MechChildhoodDrone.title>
+  <ATR_MechChildhoodDrone.titleShort>Дрон</ATR_MechChildhoodDrone.titleShort>
+  <ATR_MechChildhoodDrone.baseDesc>Дроновое «детство» столь же неинтересно, сколь часто о нем забывают. Многие создатели не утруждают себя отметкой момента пробуждения, и ни один дрон не знает своей истории.</ATR_MechChildhoodDrone.baseDesc>
+
+
+  <!-- Adulthoods -->
+
+  <ATR_MechAdulthoodDrone.title>Дрон</ATR_MechAdulthoodDrone.title>
+  <ATR_MechAdulthoodDrone.titleShort>Дрон</ATR_MechAdulthoodDrone.titleShort>
+  <ATR_MechAdulthoodDrone.baseDesc>{PAWN_nameDef} - это дрон, который продолжает служить, основываясь на программе {PAWN_possessive}. Невозможно узнать, сколько раз менялась эта программа, но дрон, похоже, не беспокоится по этому поводу.</ATR_MechAdulthoodDrone.baseDesc>
+
+
+</LanguageData>
