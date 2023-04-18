@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <HediffDef ParentName="ATR_MaintenanceRandomEffectsBase">
+        <defName>ATR_DustAccumulation</defName>
+        <label>dust accumulation</label>
+        <description>Due to a lack of maintenance, dust is accumulating within this part and will very mildly affect heat dissipation and performance until repaired or until stable maintenance is achieved.</description>
+        <defaultLabelColor>(0.8, 0.8, 0.5)</defaultLabelColor>
+        <initialSeverity>0.01</initialSeverity>
+        <maxSeverity>0.5</maxSeverity>
+        <comps>
+            <li Class="HediffCompProperties_SeverityPerDay">
+                <severityPerDay>0.01</severityPerDay>
+            </li>
+            <li Class="MechHumanlikes.HediffCompProperties_MaintenanceThresholdToRemove">
+                <maintenanceThresholdDays>0</maintenanceThresholdDays>
+            </li>
+        </comps>
+        <stages>
+            <li>
+                <minSeverity>0</minSeverity>
+                <label>trivial</label>
+                <partEfficiencyOffset>-0.05</partEfficiencyOffset>
+                <statOffsets>
+                    <ComfyTemperatureMax>-1</ComfyTemperatureMax>
+                </statOffsets>
+            </li>
+            <li>
+                <minSeverity>0.15</minSeverity>
+                <label>minor</label>
+                <partEfficiencyOffset>-0.1</partEfficiencyOffset>
+                <statOffsets>
+                    <ComfyTemperatureMax>-3</ComfyTemperatureMax>
+                </statOffsets>
+            </li>
+            <li>
+                <minSeverity>0.3</minSeverity>
+                <label>major</label>
+                <partEfficiencyOffset>-0.15</partEfficiencyOffset>
+                <statOffsets>
+                    <ComfyTemperatureMax>-6</ComfyTemperatureMax>
+                </statOffsets>
+            </li>
+            <li>
+                <minSeverity>0.45</minSeverity>
+                <label>significant</label>
+                <partEfficiencyOffset>-0.25</partEfficiencyOffset>
+                <statOffsets>
+                    <ComfyTemperatureMax>-10</ComfyTemperatureMax>
+                </statOffsets>
+            </li>
+        </stages>
+        <modExtensions>
+            <li Class="MechHumanlikes.MHC_MaintenanceEffectExtension">
+                <meanDaysToOccur>
+                    <points>
+                        <li>(0, 600)</li>
+                        <li>(14, 180)</li>
+                        <li>(29, 60)</li>
+                    </points>
+                </meanDaysToOccur>
+                <daysBeforeCanOccur>-1</daysBeforeCanOccur>
+                <requiredMaintenanceStageToOccur>Poor</requiredMaintenanceStageToOccur>
+                <racesToAffect>
+                    <li>ATR_Tier1Android</li>
+                    <li>ATR_Tier2Android</li>
+                    <li>ATR_Tier3Android</li>
+                    <li>ATR_Tier4Android</li>
+                </racesToAffect>
+                <partsToAffect>
+                    <li>ATR_MechanicalHeatsink</li>
+                </partsToAffect>
+            </li>
+        </modExtensions>
+    </HediffDef>
+
+    <HediffDef ParentName="ATR_MaintenanceRandomEffectsBase">
+        <defName>ATR_NeuralRampancy</defName>
+        <label>neural rampancy</label>
+        <description>The consciousness of the unit is splitting and subdividing into rogue intelligences that are slowly corrupting the primary intelligence. These rampant personalities will cause frequent breakdowns and eventual death unless the unit can perform enough internal maintenance to purge the rogue intelligences and reach stability.</description>
+        <defaultLabelColor>(0.8, 0.8, 0.5)</defaultLabelColor>
+        <initialSeverity>0.01</initialSeverity>
+        <comps>
+            <li Class="HediffCompProperties_SeverityPerDay">
+                <severityPerDay>0.025</severityPerDay>
+            </li>
+            <li Class="MechHumanlikes.HediffCompProperties_MaintenanceThresholdToRemove">
+                <maintenanceThresholdDays>0</maintenanceThresholdDays>
+            </li>
+        </comps>
+        <stages>
+            <li>
+                <minSeverity>0</minSeverity>
+                <label>initial</label>
+                <becomeVisible>false</becomeVisible>
+                <mentalStateGivers>
+                    <li>
+                        <mentalState>Wander_Psychotic</mentalState>
+                        <mtbDays>10</mtbDays>
+                    </li>
+                    <li>
+                        <mentalState>Berserk</mentalState>
+                        <mtbDays>45</mtbDays>
+                    </li>
+                </mentalStateGivers>
+            </li>
+            <li>
+                <minSeverity>0.2</minSeverity>
+                <label>undermined</label>
+                <lifeThreatening>true</lifeThreatening>
+                <mentalStateGivers>
+                    <li>
+                        <mentalState>Wander_Psychotic</mentalState>
+                        <mtbDays>8</mtbDays>
+                    </li>
+                    <li>
+                        <mentalState>Berserk</mentalState>
+                        <mtbDays>30</mtbDays>
+                    </li>
+                </mentalStateGivers>
+                <capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<postFactor>0.9</postFactor>
+					</li>
+                </capMods>
+            </li>
+            <li>
+                <minSeverity>0.45</minSeverity>
+                <label>sabotaged</label>
+                <lifeThreatening>true</lifeThreatening>
+                <mentalStateGivers>
+                    <li>
+                        <mentalState>Wander_Psychotic</mentalState>
+                        <mtbDays>6</mtbDays>
+                    </li>
+                    <li>
+                        <mentalState>Berserk</mentalState>
+                        <mtbDays>20</mtbDays>
+                    </li>
+                </mentalStateGivers>
+                <capMods>
+                    <li>
+                        <capacity>Consciousness</capacity>
+                        <postFactor>0.75</postFactor>
+                    </li>
+                </capMods>
+            </li>
+            <li>
+                <minSeverity>0.7</minSeverity>
+                <label>terrorized</label>
+                <lifeThreatening>true</lifeThreatening>
+                <mentalStateGivers>
+                    <li>
+                        <mentalState>Wander_Psychotic</mentalState>
+                        <mtbDays>5</mtbDays>
+                    </li>
+                    <li>
+                        <mentalState>Berserk</mentalState>
+                        <mtbDays>20</mtbDays>
+                    </li>
+                </mentalStateGivers>
+                <capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<postFactor>0.6</postFactor>
+					</li>
+                </capMods>
+            </li>
+            <li>
+                <minSeverity>0.9</minSeverity>
+                <label>wartorn</label>
+                <lifeThreatening>true</lifeThreatening>
+                <mentalStateGivers>
+                    <li>
+                        <mentalState>Wander_Psychotic</mentalState>
+                        <mtbDays>3</mtbDays>
+                    </li>
+                    <li>
+                        <mentalState>Berserk</mentalState>
+                        <mtbDays>10</mtbDays>
+                    </li>
+                </mentalStateGivers>
+                <capMods>
+                    <li>
+                        <capacity>Consciousness</capacity>
+                        <postFactor>0.5</postFactor>
+                    </li>
+                </capMods>
+            </li>
+            <li>
+                <minSeverity>1</minSeverity>
+                <label>executed</label>
+                <deathMtbDays>0</deathMtbDays>
+                <mtbDeathDestroysBrain>true</mtbDeathDestroysBrain>
+            </li>
+        </stages>
+        <modExtensions>
+            <li Class="MechHumanlikes.MHC_MaintenanceEffectExtension">
+                <meanDaysToOccur>
+                    <points>
+                        <li>(0, 600)</li>
+                        <li>(15, 300)</li>
+                        <li>(30, 180)</li>
+                    </points>
+                </meanDaysToOccur>
+                <daysBeforeCanOccur>-30</daysBeforeCanOccur>
+                <requiredMaintenanceStageToOccur>Critical</requiredMaintenanceStageToOccur>
+                <racesToAffect>
+                    <li>ATR_Tier3Android</li>
+                    <li>ATR_Tier4Android</li>
+                </racesToAffect>
+                <partsToAffect>
+                    <li>ATR_MechaniteStorage</li>
+                </partsToAffect>
+            </li>
+        </modExtensions>
+    </HediffDef>
+
+    <!-- Good effects -->
+
+    <HediffDef ParentName="ATR_MaintenanceGoodRandomEffectsBase">
+        <defName>ATR_MechaniteOvercharge</defName>
+        <label>mechanite overcharge</label>
+        <description>Due to high maintenance and stability, mechanites in this android have experienced an unusual surge in cohesion and efficiency, leading to improved energy retention and injury repair rate as well as enhancing the core intelligence's control of the entire system. The effect will last a few days, or until maintenance drops below zero.</description>
+        <defaultLabelColor>(0.8, 0.8, 0.5)</defaultLabelColor>
+        <initialSeverity>1</initialSeverity>
+        <comps>
+            <li Class="HediffCompProperties_SeverityPerDay">
+                <severityPerDay>-0.33</severityPerDay>
+            </li>
+            <li Class="MechHumanlikes.HediffCompProperties_MaintenanceThresholdToRemove">
+                <shouldBeHigherThanToRemove>false</shouldBeHigherThanToRemove>
+                <maintenanceThresholdDays>0</maintenanceThresholdDays>
+            </li>
+        </comps>
+        <stages>
+            <li>
+                <hungerRateFactor>0.75</hungerRateFactor>
+                <statOffsets>
+                    <InjuryHealingFactor>0.25</InjuryHealingFactor>
+                </statOffsets>
+                <capMods>
+                    <li>
+                        <capacity>Consciousness</capacity>
+                        <offset>0.1</offset>
+                    </li>
+                </capMods>
+            </li>
+        </stages>
+        <modExtensions>
+            <li Class="MechHumanlikes.MHC_MaintenanceEffectExtension">
+                <meanDaysToOccur>
+                    <points>
+                        <li>(0, 600)</li>
+                        <li>(3, 300)</li>
+                        <li>(12, 120)</li>
+                        <li>(27, 60)</li>
+                    </points>
+                </meanDaysToOccur>
+                <daysBeforeCanOccur>2</daysBeforeCanOccur>
+                <requiredMaintenanceStageToOccur>Satisfactory</requiredMaintenanceStageToOccur>
+                <racesToAffect>
+                    <li>ATR_Tier1Android</li>
+                    <li>ATR_Tier2Android</li>
+                    <li>ATR_Tier3Android</li>
+                    <li>ATR_Tier4Android</li>
+                </racesToAffect>
+                <partsToAffect>
+                    <li>ATR_MechaniteStorage</li>
+                </partsToAffect>
+            </li>
+        </modExtensions>
+    </HediffDef>
+
+    <HediffDef ParentName="ATR_MaintenanceGoodRandomEffectsBase">
+        <defName>ATR_ServomotorOvercharge</defName>
+        <label>servomotor overcharge</label>
+        <description>Due to high maintenance and stability, servomotors in this part have experienced an unusual increase in resilience, flexibility, and efficiency, leading to improved functionality. The effect will last a few days, or until maintenance drops below zero.</description>
+        <defaultLabelColor>(0.8, 0.8, 0.5)</defaultLabelColor>
+        <initialSeverity>1</initialSeverity>
+        <comps>
+            <li Class="HediffCompProperties_SeverityPerDay">
+                <severityPerDay>-0.25</severityPerDay>
+            </li>
+            <li Class="MechHumanlikes.HediffCompProperties_MaintenanceThresholdToRemove">
+                <shouldBeHigherThanToRemove>false</shouldBeHigherThanToRemove>
+                <maintenanceThresholdDays>0</maintenanceThresholdDays>
+            </li>
+        </comps>
+        <stages>
+            <li>
+                <partEfficiencyOffset>0.5</partEfficiencyOffset>
+            </li>
+        </stages>
+        <modExtensions>
+            <li Class="MechHumanlikes.MHC_MaintenanceEffectExtension">
+                <meanDaysToOccur>
+                    <points>
+                        <li>(0, 600)</li>
+                        <li>(3, 300)</li>
+                        <li>(12, 120)</li>
+                        <li>(27, 60)</li>
+                    </points>
+                </meanDaysToOccur>
+                <daysBeforeCanOccur>2</daysBeforeCanOccur>
+                <requiredMaintenanceStageToOccur>Satisfactory</requiredMaintenanceStageToOccur>
+                <racesToAffect>
+                    <li>ATR_Tier1Android</li>
+                    <li>ATR_Tier2Android</li>
+                    <li>ATR_Tier3Android</li>
+                    <li>ATR_Tier4Android</li>
+                </racesToAffect>
+                <bodyPartTagsToAffect>
+                    <li>ManipulationLimbSegment</li>
+                    <li>MovingLimbSegment</li>
+                </bodyPartTagsToAffect>
+            </li>
+        </modExtensions>
+    </HediffDef>
+
+</Defs>
