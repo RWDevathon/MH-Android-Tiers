@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ATR_MechAdulthoodRuthlessEnforcer.title>Чрезмерно усердный силовик</ATR_MechAdulthoodRuthlessEnforcer.title>
+  <ATR_MechAdulthoodRuthlessEnforcer.titleShort>силовик</ATR_MechAdulthoodRuthlessEnforcer.titleShort>
+  <ATR_MechAdulthoodRuthlessEnforcer.baseDesc>{PAWN_nameDef} был силовиком Urbworld в одной из крупных корпораций. {PAWN_pronoun} был слишком груб и готов для этой должности, и в итоге вместо этого стал работать в банде. Однако {PAWN_nameDef} оказался слишком откровенным для них и решил покинуть планету.</ATR_MechAdulthoodRuthlessEnforcer.baseDesc>
+
+
+</LanguageData>

@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ATR_T1Colonist.label>T1 Колонист-новобранец</ATR_T1Colonist.label>
+  <ATR_T1Colonist.labelPlural>T1 Колонисты новобранцы</ATR_T1Colonist.labelPlural>
+  <ATR_T1Colonist.labelMale>мужчина T1 Колонист-новобранец</ATR_T1Colonist.labelMale>
+  <ATR_T1Colonist.labelMalePlural>мужчина T1 Колонисты новобранцы</ATR_T1Colonist.labelMalePlural>
+  <ATR_T1Colonist.labelFemale>женщина T1 Колонист-новобранец</ATR_T1Colonist.labelFemale>
+  <ATR_T1Colonist.labelFemalePlural>женщина T1 Колонисты новобранцы</ATR_T1Colonist.labelFemalePlural>
+
+  <ATR_T2Colonist.label>T2 Колонист-новобранец</ATR_T2Colonist.label>
+  <ATR_T2Colonist.labelPlural>T2 Колонисты новобранцы</ATR_T2Colonist.labelPlural>
+  <ATR_T2Colonist.labelMale>мужчина T2 Колонист-новобранец</ATR_T2Colonist.labelMale>
+  <ATR_T2Colonist.labelMalePlural>мужчина T2 Колонисты новобранцы</ATR_T2Colonist.labelMalePlural>
+  <ATR_T2Colonist.labelFemale>женщина T2 Колонист-новобранец</ATR_T2Colonist.labelFemale>
+  <ATR_T2Colonist.labelFemalePlural>женщина T2 Колонисты новобранцы</ATR_T2Colonist.labelFemalePlural>
+
+  <ATR_T3Colonist.label>T3 Колонист-новобранец</ATR_T3Colonist.label>
+  <ATR_T3Colonist.labelPlural>T3 Колонисты новобранцы</ATR_T3Colonist.labelPlural>
+  <ATR_T3Colonist.labelMale>мужчина T3 Колонист-новобранец</ATR_T3Colonist.labelMale>
+  <ATR_T3Colonist.labelMalePlural>мужчина T3 Колонисты новобранцы</ATR_T3Colonist.labelMalePlural>
+  <ATR_T3Colonist.labelFemale>женщина T3 Колонист-новобранец</ATR_T3Colonist.labelFemale>
+  <ATR_T3Colonist.labelFemalePlural>женщина T3 Колонисты новобранцы</ATR_T3Colonist.labelFemalePlural>
+
+  <ATR_T4Colonist.label>T4 Колонист-новобранец</ATR_T4Colonist.label>
+  <ATR_T4Colonist.labelPlural>T4 Колонисты новобранцы</ATR_T4Colonist.labelPlural>
+  <ATR_T4Colonist.labelMale>мужчина T4 Колонист-новобранец</ATR_T4Colonist.labelMale>
+  <ATR_T4Colonist.labelMalePlural>мужчина T4 Колонисты новобранцы</ATR_T4Colonist.labelMalePlural>
+  <ATR_T4Colonist.labelFemale>женщина T4 Колонист-новобранец</ATR_T4Colonist.labelFemale>
+  <ATR_T4Colonist.labelFemalePlural>женщина T4 Колонисты новобранцы</ATR_T4Colonist.labelFemalePlural>
+
+
+  <!-- Androids With Real Backstories -->
+
+  <ATR_T1Refugee.label>Андроид T1 Колонист</ATR_T1Refugee.label>
+  <ATR_T1Refugee.labelPlural>T1 Андроиды-колонисты</ATR_T1Refugee.labelPlural>
+  <ATR_T1Refugee.labelMale>мужчина Андроид T1 Колонист</ATR_T1Refugee.labelMale>
+  <ATR_T1Refugee.labelMalePlural>мужчина T1 Андроиды-колонисты</ATR_T1Refugee.labelMalePlural>
+  <ATR_T1Refugee.labelFemale>женщина Андроид T1 Колонист</ATR_T1Refugee.labelFemale>
+  <ATR_T1Refugee.labelFemalePlural>женщина T1 Андроиды-колонисты</ATR_T1Refugee.labelFemalePlural>
+
+  <ATR_T2Refugee.label>Андроид T2 Колонист</ATR_T2Refugee.label>
+  <ATR_T2Refugee.labelPlural>T2 Андроиды-колонисты</ATR_T2Refugee.labelPlural>
+  <ATR_T2Refugee.labelMale>мужчина Андроид T2 Колонист</ATR_T2Refugee.labelMale>
+  <ATR_T2Refugee.labelMalePlural>мужчина T2 Андроиды-колонисты</ATR_T2Refugee.labelMalePlural>
+  <ATR_T2Refugee.labelFemale>женщина Андроид T2 Колонист</ATR_T2Refugee.labelFemale>
+  <ATR_T2Refugee.labelFemalePlural>женщина T2 Андроиды-колонисты</ATR_T2Refugee.labelFemalePlural>
+
+  <ATR_T3Refugee.label>Андроид T3 Колонист</ATR_T3Refugee.label>
+  <ATR_T3Refugee.labelPlural>T3 Андроиды-колонисты</ATR_T3Refugee.labelPlural>
+  <ATR_T3Refugee.labelMale>мужчина Андроид T3 Колонист</ATR_T3Refugee.labelMale>
+  <ATR_T3Refugee.labelMalePlural>мужчина T3 Андроиды-колонисты</ATR_T3Refugee.labelMalePlural>
+  <ATR_T3Refugee.labelFemale>женщина Андроид T3 Колонист</ATR_T3Refugee.labelFemale>
+  <ATR_T3Refugee.labelFemalePlural>женщина T3 Андроиды-колонисты</ATR_T3Refugee.labelFemalePlural>
+
+  <ATR_T4Refugee.label>Андроид T4 Колонист</ATR_T4Refugee.label>
+  <ATR_T4Refugee.labelPlural>T4 Андроиды-колонисты</ATR_T4Refugee.labelPlural>
+  <ATR_T4Refugee.labelMale>мужчина Андроид T4 Колонист</ATR_T4Refugee.labelMale>
+  <ATR_T4Refugee.labelMalePlural>мужчина T4 Андроиды-колонисты</ATR_T4Refugee.labelMalePlural>
+  <ATR_T4Refugee.labelFemale>женщина Андроид T4 Колонист</ATR_T4Refugee.labelFemale>
+  <ATR_T4Refugee.labelFemalePlural>женщина T4 Андроиды-колонисты</ATR_T4Refugee.labelFemalePlural>
+
+
+</LanguageData>
