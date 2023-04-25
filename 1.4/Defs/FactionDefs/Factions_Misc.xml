@@ -30,10 +30,17 @@
 			</thingDefs>
 		</apparelStuffFilter>
         <modExtensions>
-            <li Class="ATReforged.ATR_FactionExtension">
-                <canUseMechanicalSurrogates>true</canUseMechanicalSurrogates>
-                <canUseOrganicSurrogates>true</canUseOrganicSurrogates>
+            <li Class="ATReforged.ATR_FactionAndroidExtension">
                 <membersShouldBeAndroids>true</membersShouldBeAndroids>
+            </li>
+            <!-- All options for SkyMind-related faction extension presented here with default values. -->
+            <li MayRequire="Killathon.SkyMind.SkyMindNetwork" Class="SkyMind.SMN_FactionSkyMindExtension">
+                <canUseSurrogates>true</canUseSurrogates> <!-- Default: false -->
+                <minLegalPawnsForSurrogates>3</minLegalPawnsForSurrogates> <!-- Default: 5 -->
+                <minStrengthForSurrogates>40</minStrengthForSurrogates> <!-- Default: 0 -->
+                <percentChanceForGroupToHaveSurrogates>0.15</percentChanceForGroupToHaveSurrogates> <!-- Default: 0.3 -->
+                <percentOfGroupToBeSurrogatesMin>0.0</percentOfGroupToBeSurrogatesMin> <!-- Default: 0.0 -->
+                <percentOfGroupToBeSurrogatesMax>1.0</percentOfGroupToBeSurrogatesMax> <!-- Default: 1.0 -->
             </li>
         </modExtensions>
 	</FactionDef>
@@ -142,9 +149,16 @@
             <li MayRequire="OskarPotocki.VFE.Empire" Class="VFEEmpire.FactionExtension_Deserters">
                 <canSendDeserters>false</canSendDeserters>
             </li>
-            <li Class="ATReforged.ATR_FactionExtension">
-                <canUseMechanicalSurrogates>true</canUseMechanicalSurrogates>
+            <li Class="ATReforged.ATR_FactionAndroidExtension">
                 <membersShouldBeAndroids>true</membersShouldBeAndroids>
+            </li>
+            <li MayRequire="Killathon.SkyMind.SkyMindNetwork" Class="SkyMind.SMN_FactionSkyMindExtension">
+                <canUseSurrogates>true</canUseSurrogates> <!-- Default: false -->
+                <minLegalPawnsForSurrogates>12</minLegalPawnsForSurrogates> <!-- Default: 5 -->
+                <minStrengthForSurrogates>60</minStrengthForSurrogates> <!-- Default: 0 -->
+                <percentChanceForGroupToHaveSurrogates>0.3</percentChanceForGroupToHaveSurrogates> <!-- Default: 0.3 -->
+                <percentOfGroupToBeSurrogatesMin>0.1</percentOfGroupToBeSurrogatesMin> <!-- Default: 0.0 -->
+                <percentOfGroupToBeSurrogatesMax>0.7</percentOfGroupToBeSurrogatesMax> <!-- Default: 1.0 -->
             </li>
         </modExtensions>
 	</FactionDef>
@@ -265,9 +279,16 @@
             <li MayRequire="OskarPotocki.VFE.Empire" Class="VFEEmpire.FactionExtension_Deserters">
                 <canSendDeserters>false</canSendDeserters>
             </li>
-            <li Class="ATReforged.ATR_FactionExtension">
-                <canUseMechanicalSurrogates>true</canUseMechanicalSurrogates>
+            <li Class="ATReforged.ATR_FactionAndroidExtension">
                 <membersShouldBeAndroids>true</membersShouldBeAndroids>
+            </li>
+            <li MayRequire="Killathon.SkyMind.SkyMindNetwork" Class="SkyMind.SMN_FactionSkyMindExtension">
+                <canUseSurrogates>true</canUseSurrogates> <!-- Default: false -->
+                <minLegalPawnsForSurrogates>5</minLegalPawnsForSurrogates> <!-- Default: 5 -->
+                <minStrengthForSurrogates>40</minStrengthForSurrogates> <!-- Default: 0 -->
+                <percentChanceForGroupToHaveSurrogates>0.8</percentChanceForGroupToHaveSurrogates> <!-- Default: 0.3 -->
+                <percentOfGroupToBeSurrogatesMin>0.6</percentOfGroupToBeSurrogatesMin> <!-- Default: 0.0 -->
+                <percentOfGroupToBeSurrogatesMax>1.0</percentOfGroupToBeSurrogatesMax> <!-- Default: 1.0 -->
             </li>
         </modExtensions>
 	</FactionDef>

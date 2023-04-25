@@ -126,6 +126,10 @@
             <li Class="ATReforged.ATR_PawnExtension">
                 <isAndroid>true</isAndroid>
             </li>
+            <li MayRequire="Killathon.SkyMind.SkyMindNetwork" Class="SkyMind.SMN_PawnSkyMindExtension">
+                <defaultTransceiverImplant>ATR_AutonomousCore</defaultTransceiverImplant>
+                <defaultReceiverImplant>ATR_ReceiverCore</defaultReceiverImplant>
+            </li>
 		</modExtensions>
 		<butcherProducts>
 			<Plasteel>80</Plasteel>
