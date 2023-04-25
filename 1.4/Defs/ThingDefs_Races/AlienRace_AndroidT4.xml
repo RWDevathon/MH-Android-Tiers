@@ -33,6 +33,7 @@
                         <li>ATR_Tier4_None</li>
                     </headTypes>
                 </alienPartGenerator>
+                <additionalTraits>1~4</additionalTraits>
             </generalSettings>
 		</alienRace>
         <uiIconPath>Things/Pawns/Humanlikes/Tier4/ATR_TierFourExemplar</uiIconPath>

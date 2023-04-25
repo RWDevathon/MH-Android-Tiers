@@ -33,6 +33,7 @@
                         <li>ATR_Tier1_None</li>
                     </headTypes>
                 </alienPartGenerator>
+                <additionalTraits>0~1</additionalTraits>
             </generalSettings>
 		</alienRace>
         <uiIconPath>Things/Pawns/Humanlikes/Tier1/ATR_TierOneExemplar</uiIconPath>
