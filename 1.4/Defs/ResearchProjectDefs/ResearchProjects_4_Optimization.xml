@@ -31,7 +31,7 @@
 			<li>ShipComputerCore</li>
 		</prerequisites>
 		<researchViewX>7</researchViewX>
-		<researchViewY>2.5</researchViewY>
+		<researchViewY>2</researchViewY>
 		<requiredResearchFacilities>
 			<li>MultiAnalyzer</li>
 		</requiredResearchFacilities>
