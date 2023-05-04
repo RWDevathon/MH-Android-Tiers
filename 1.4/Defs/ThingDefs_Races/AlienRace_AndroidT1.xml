@@ -51,6 +51,7 @@
             <MHC_MaintenanceRetention>0.75</MHC_MaintenanceRetention>
             <MHC_NutritionalIntakeEfficiency>0.9</MHC_NutritionalIntakeEfficiency>
             <MHC_ChargingSpeed>0.9</MHC_ChargingSpeed>
+            <MHC_MechanicalNeedCapacity>1</MHC_MechanicalNeedCapacity>
 			<Mass>32.5</Mass>
 		</statBases>
 		<tools>
@@ -127,6 +128,10 @@
                     <li>Outdoors</li>
                     <li>Indoors</li>
                 </blacklistedSapientNeeds>
+                <mechanicalNeeds>
+                    <li>MHC_Coolant</li>
+                    <li>MHC_Lubrication</li>
+                </mechanicalNeeds>
             </li>
             <li Class="ATReforged.ATR_PawnExtension">
                 <isAndroid>true</isAndroid>
