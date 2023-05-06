@@ -27,6 +27,11 @@
 					<def>StartingResearch</def>
 					<project>ATR_MechanicalInsight</project>
 				</li>
+				<li MayRequire="Killathon.MechHumanlikes.MechanicalBiomimetics" Class="ScenPart_StartingAnimal">
+					<def>StartingAnimal</def>
+                    <count>2</count>
+                    <animalKind>ATB_DroneChemUnit</animalKind>
+				</li>
 				<!-- Player starting things -->
 				<li Class="ScenPart_StartingThing_Defined">
 					<def>StartingThing_Defined</def>

@@ -15,6 +15,7 @@
         <costList>
             <Steel>80</Steel>
             <Plasteel>40</Plasteel>
+            <MHC_LubricationPack>1</MHC_LubricationPack>
             <Gold>1</Gold>
             <ComponentIndustrial>10</ComponentIndustrial>
             <ComponentSpacer>1</ComponentSpacer>
@@ -41,6 +42,8 @@
         <costList>
             <Steel>120</Steel>
             <Plasteel>60</Plasteel>
+            <MHC_CoolantPack>1</MHC_CoolantPack>
+            <MHC_LubricationPack>1</MHC_LubricationPack>
             <Gold>2</Gold>
             <ComponentIndustrial>16</ComponentIndustrial>
             <ComponentSpacer>4</ComponentSpacer>
@@ -70,6 +73,8 @@
         <costList>
             <Plasteel>220</Plasteel>
             <Uranium>100</Uranium>
+            <MHC_CoolantPack>3</MHC_CoolantPack>
+            <MHC_LubricationPack>3</MHC_LubricationPack>
             <Gold>3</Gold>
             <ComponentIndustrial>16</ComponentIndustrial>
             <ComponentSpacer>12</ComponentSpacer>
@@ -100,6 +105,8 @@
         <costList>
             <Plasteel>240</Plasteel>
             <Uranium>80</Uranium>
+            <MHC_CoolantPack>3</MHC_CoolantPack>
+            <MHC_LubricationPack>3</MHC_LubricationPack>
             <Gold>4</Gold>
             <ComponentIndustrial>16</ComponentIndustrial>
             <ComponentSpacer>16</ComponentSpacer>
