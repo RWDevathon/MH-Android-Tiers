@@ -65,6 +65,20 @@
                 </countRange>
             </li>
             <li Class="StockGenerator_SingleDef">
+                <thingDef>MHC_CoolantPack</thingDef>
+                <countRange>
+                    <min>20</min>
+                    <max>60</max>
+                </countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>MHC_LubricationPack</thingDef>
+                <countRange>
+                    <min>30</min>
+                    <max>90</max>
+                </countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
                 <thingDef>Chemfuel</thingDef>
                 <countRange>
                     <min>250</min>
@@ -133,6 +147,20 @@
                 </countRange>
             </li>
             <li Class="StockGenerator_SingleDef">
+                <thingDef>MHC_CoolantPack</thingDef>
+                <countRange>
+                    <min>5</min>
+                    <max>40</max>
+                </countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>MHC_LubricationPack</thingDef>
+                <countRange>
+                    <min>10</min>
+                    <max>80</max>
+                </countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
                 <thingDef>MHC_PartPack</thingDef>
                 <countRange>
                     <min>5</min>
@@ -172,6 +200,20 @@
                 <countRange>
                     <min>10</min>
                     <max>20</max>
+                </countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>MHC_CoolantPack</thingDef>
+                <countRange>
+                    <min>5</min>
+                    <max>40</max>
+                </countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>MHC_LubricationPack</thingDef>
+                <countRange>
+                    <min>10</min>
+                    <max>80</max>
                 </countRange>
             </li>
             <li Class="StockGenerator_SingleDef">

@@ -28,6 +28,14 @@
                 <thingDef>Plasteel</thingDef>
                 <countRange>100~400</countRange>
             </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>MHC_CoolantPack</thingDef>
+                <countRange>20~100</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>MHC_LubricationPack</thingDef>
+                <countRange>40~200</countRange>
+            </li>
 			<li Class="StockGenerator_SingleDef">
                 <thingDef>MHC_PartPack</thingDef>
                 <countRange>8~40</countRange>

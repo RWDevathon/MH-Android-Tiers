@@ -82,6 +82,20 @@
                 </countRange>
             </li>
             <li Class="StockGenerator_SingleDef">
+                <thingDef>MHC_CoolantPack</thingDef>
+                <countRange>
+                    <min>50</min>
+                    <max>200</max>
+                </countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>MHC_LubricationPack</thingDef>
+                <countRange>
+                    <min>200</min>
+                    <max>600</max>
+                </countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
                 <thingDef>MHC_PartPack</thingDef>
                 <countRange>
                     <min>-30</min>
