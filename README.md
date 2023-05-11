@@ -25,9 +25,16 @@ Special thanks to:
 * Kitty Of Pathos - Gynoid textures
 * JGH - Donated graphics for simplified buildings, icons, and many other graphics
 * RedMattis - Newly updated and refined gynoid textures
+* Thermo - Thumbnail/Preview image
 * Android Tiers Discord - The endless whirlpool of ideas, assistance, and the home domain
 * RimWorld and HAR Discords - Incredible amounts of support and assistance
 
+Background by Freepik
+(https://www.freepik.com/free-vector/gradient-futuristic-background_19836502.htm#query=green%20circuit%20backround&position=46&from_view=search&track=robertav1_2_sidr%22%3EFreepik)
+
+Reflective Metal in Corner by macrovector on Freepik
+(https://www.freepik.com/free-vector/realistic-metal-button-with-circular-processing-cone-reflection_11060526.htm#query=shining%20metal&position=39&from_view=search&track=robertav1_2_sidr%22%3EImage)
+
 ## Contributions
 
-Contributions of any kind - except donated graphics, name lists, and of course bug/play testing - are not accepted for the core project. Enjoy and cherish it, but don't feel compelled to support.
+Contributions of any kind - except donated graphics, name lists, and of course bug/play testing - are not accepted for the project. Enjoy and cherish it, but don't feel compelled to support.
