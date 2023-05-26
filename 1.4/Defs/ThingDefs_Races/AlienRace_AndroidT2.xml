@@ -104,6 +104,10 @@
 			<body>ATR_AndroidBody</body>
 			<baseBodySize>0.8</baseBodySize>
 		</race>
+        <recipes>
+            <li>MHC_CoolantInjection</li>
+            <li>MHC_LubricantInjection</li>
+        </recipes>
 		<modExtensions>
             <li Class="MechHumanlikes.MHC_MechanicalPawnExtension">
                 <droneSkillLevel>10</droneSkillLevel>

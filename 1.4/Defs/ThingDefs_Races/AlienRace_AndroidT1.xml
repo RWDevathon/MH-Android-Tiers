@@ -106,6 +106,10 @@
 			<baseHealthScale>0.8</baseHealthScale>
 			<baseBodySize>0.5</baseBodySize>
 		</race>
+        <recipes>
+            <li>MHC_CoolantInjection</li>
+            <li>MHC_LubricantInjection</li>
+        </recipes>
 		<modExtensions>
             <li Class="MechHumanlikes.MHC_MechanicalPawnExtension">
                 <useCustomNoneGenderNameMakers>true</useCustomNoneGenderNameMakers>

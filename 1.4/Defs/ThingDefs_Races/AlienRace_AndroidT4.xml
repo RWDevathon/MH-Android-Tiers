@@ -108,6 +108,10 @@
 			<baseHungerRate>0.6</baseHungerRate>
 			<baseBodySize>1.1</baseBodySize>
 		</race>
+        <recipes>
+            <li>MHC_CoolantInjection</li>
+            <li>MHC_LubricantInjection</li>
+        </recipes>
 		<modExtensions>
             <li Class="MechHumanlikes.MHC_MechanicalPawnExtension">
                 <droneSkillLevel>14</droneSkillLevel>
