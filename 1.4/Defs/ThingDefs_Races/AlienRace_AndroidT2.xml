@@ -51,7 +51,7 @@
             <MHC_NutritionalIntakeEfficiency>0.5</MHC_NutritionalIntakeEfficiency>
             <MHC_ChargingSpeed>1</MHC_ChargingSpeed>
             <MHC_MechanicalNeedCapacity>1</MHC_MechanicalNeedCapacity>
-			<Mass>62.5</Mass>
+			<Mass>96</Mass>
 		</statBases>
 		<tools>
 			<li>

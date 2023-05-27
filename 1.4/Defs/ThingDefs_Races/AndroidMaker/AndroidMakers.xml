@@ -13,7 +13,7 @@
             <researchPrerequisite>ATR_T1Androids</researchPrerequisite>
         </recipeMaker>
         <costList>
-            <Steel>80</Steel>
+            <Steel>100</Steel>
             <Plasteel>40</Plasteel>
             <MHC_LubricationPack>1</MHC_LubricationPack>
             <Gold>1</Gold>
@@ -40,8 +40,8 @@
             <researchPrerequisite>ATR_T2Androids</researchPrerequisite>
         </recipeMaker>
         <costList>
-            <Steel>120</Steel>
-            <Plasteel>60</Plasteel>
+            <Steel>140</Steel>
+            <Plasteel>70</Plasteel>
             <MHC_CoolantPack>1</MHC_CoolantPack>
             <MHC_LubricationPack>1</MHC_LubricationPack>
             <Gold>2</Gold>
@@ -71,12 +71,12 @@
             <researchPrerequisite>ATR_T3Androids</researchPrerequisite>
         </recipeMaker>
         <costList>
-            <Plasteel>220</Plasteel>
-            <Uranium>100</Uranium>
+            <Plasteel>180</Plasteel>
+            <Uranium>80</Uranium>
             <MHC_CoolantPack>3</MHC_CoolantPack>
             <MHC_LubricationPack>3</MHC_LubricationPack>
             <Gold>3</Gold>
-            <ComponentIndustrial>16</ComponentIndustrial>
+            <ComponentIndustrial>20</ComponentIndustrial>
             <ComponentSpacer>12</ComponentSpacer>
         </costList>
         <comps>
@@ -104,12 +104,11 @@
         </recipeMaker>
         <costList>
             <Plasteel>240</Plasteel>
-            <Uranium>80</Uranium>
             <MHC_CoolantPack>3</MHC_CoolantPack>
             <MHC_LubricationPack>3</MHC_LubricationPack>
             <Gold>4</Gold>
-            <ComponentIndustrial>16</ComponentIndustrial>
-            <ComponentSpacer>16</ComponentSpacer>
+            <ComponentIndustrial>20</ComponentIndustrial>
+            <ComponentSpacer>20</ComponentSpacer>
             <AIPersonaCore>1</AIPersonaCore>
         </costList>
         <comps>
