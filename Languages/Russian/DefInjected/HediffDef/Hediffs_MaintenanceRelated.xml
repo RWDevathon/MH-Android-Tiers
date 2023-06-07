@@ -2,29 +2,29 @@
 <LanguageData>
 
   <ATR_DustAccumulation.label>скопление пыли</ATR_DustAccumulation.label>
-  <ATR_DustAccumulation.description>Из-за отсутствия технического обслуживания в этой детали скапливается пыль, которая очень слабо влияет на теплоотдачу и производительность, пока не будет отремонтирована или пока не будет достигнуто стабильное техническое обслуживание.</ATR_DustAccumulation.description>
-  <ATR_DustAccumulation.stages.0.label>тривиальное</ATR_DustAccumulation.stages.0.label>
-  <ATR_DustAccumulation.stages.1.label>незначительное</ATR_DustAccumulation.stages.1.label>
-  <ATR_DustAccumulation.stages.2.label>крупное</ATR_DustAccumulation.stages.2.label>
+  <ATR_DustAccumulation.description>Из-за отсутствия ТО, в этой детали скапливается пыль, которая слабо влияет на теплоотдачу и производительность, пока не будет отремонтирована или пока не будет проведено стабильное ТО.</ATR_DustAccumulation.description>
+  <ATR_DustAccumulation.stages.0.label>незначительное</ATR_DustAccumulation.stages.0.label>
+  <ATR_DustAccumulation.stages.1.label>начальное</ATR_DustAccumulation.stages.1.label>
+  <ATR_DustAccumulation.stages.2.label>среднее</ATR_DustAccumulation.stages.2.label>
   <ATR_DustAccumulation.stages.3.label>существенное</ATR_DustAccumulation.stages.3.label>
 
-  <ATR_NeuralRampancy.label>нейронное головокружение</ATR_NeuralRampancy.label>
-  <ATR_NeuralRampancy.description>Сознание устройства расщепляется и подразделяется на изгоев-интеллектуалов, которые медленно разлагают основной интеллект. Эти разбушевавшиеся личности приведут к частым поломкам и, в конечном итоге, к смерти, если юнит не сможет провести достаточное внутреннее обслуживание, чтобы очистить его от неконтролируемых интеллектов и достичь стабильности.</ATR_NeuralRampancy.description>
-  <ATR_NeuralRampancy.stages.0.label>начальное</ATR_NeuralRampancy.stages.0.label>
-  <ATR_NeuralRampancy.stages.1.label>подорванное</ATR_NeuralRampancy.stages.1.label>
+  <ATR_NeuralRampancy.label>нейронный бред</ATR_NeuralRampancy.label>
+  <ATR_NeuralRampancy.description>Сознание расщепляется и разделяется на изгоев интеллектуалов, которые медленно разлагают основной интеллект. Эти буйствующие личности приведут к частым поломкам и, в конечном итоге, к смерти, если юнит не проведёт необходимое внутреннее обслуживание, для очистки от неконтролируемых интеллектов.</ATR_NeuralRampancy.description>
+  <ATR_NeuralRampancy.stages.0.label>начальный</ATR_NeuralRampancy.stages.0.label>
+  <ATR_NeuralRampancy.stages.1.label>подорванный</ATR_NeuralRampancy.stages.1.label>
   <ATR_NeuralRampancy.stages.2.label>саботированный</ATR_NeuralRampancy.stages.2.label>
   <ATR_NeuralRampancy.stages.3.label>терроризированный</ATR_NeuralRampancy.stages.3.label>
-  <ATR_NeuralRampancy.stages.4.label>истерзанный войной</ATR_NeuralRampancy.stages.4.label>
-  <ATR_NeuralRampancy.stages.5.label>казненный</ATR_NeuralRampancy.stages.5.label>
+  <ATR_NeuralRampancy.stages.4.label>истерзанный</ATR_NeuralRampancy.stages.4.label>
+  <ATR_NeuralRampancy.stages.5.label>казнённый</ATR_NeuralRampancy.stages.5.label>
 
 
   <!-- Good effects -->
 
   <ATR_MechaniteOvercharge.label>перезарядка механитов</ATR_MechaniteOvercharge.label>
-  <ATR_MechaniteOvercharge.description>Благодаря высокому уровню обслуживания и стабильности, механиты в этом андроиде испытали необычный всплеск сплоченности и эффективности, что привело к улучшению сохранения энергии и скорости восстановления после травм, а также к усилению контроля ядра интеллекта над всей системой. Эффект продлится несколько дней, или пока уровень обслуживания не упадет ниже нуля.</ATR_MechaniteOvercharge.description>
+  <ATR_MechaniteOvercharge.description>Благодаря высокому уровню обслуживания и стабильности, механиты этого андроида испытали всплеск сплочённости и эффективности, что привело к улучшению сохранения энергии и скорости восстановления после травм, а также к усилению контроля ядра интеллекта над всей системой. Эффект продлится несколько дней, или пока уровень ТО не упадёт ниже нуля.</ATR_MechaniteOvercharge.description>
 
   <ATR_ServomotorOvercharge.label>перезарядка серводвигателей</ATR_ServomotorOvercharge.label>
-  <ATR_ServomotorOvercharge.description>Из-за высокого уровня обслуживания и стабильности серводвигатели этой части испытали необычное повышение устойчивости, гибкости и эффективности, что привело к улучшению функциональности. Эффект продлится несколько дней, или пока уровень технического обслуживания не упадет ниже нуля.</ATR_ServomotorOvercharge.description>
+  <ATR_ServomotorOvercharge.description>Из-за высокого уровня обслуживания и стабильности, серводвигатели этой части испытали необычное повышение устойчивости, гибкости и эффективности, что привело к улучшению функциональности. Эффект продлится несколько дней, или пока уровень ТО не упадёт ниже нуля.</ATR_ServomotorOvercharge.description>
 
 
 </LanguageData>

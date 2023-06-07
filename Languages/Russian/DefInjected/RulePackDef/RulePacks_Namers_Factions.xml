@@ -3,7 +3,7 @@
 
   <!-- Union -->
 
-  <ATR_UnionFactionNamer.rulePack.rulesStrings.0>r_name->The [connecting_verb] [union_type]</ATR_UnionFactionNamer.rulePack.rulesStrings.0>
+  <ATR_UnionFactionNamer.rulePack.rulesStrings.0>r_name->[connecting_verb] [union_type]</ATR_UnionFactionNamer.rulePack.rulesStrings.0>
   <ATR_UnionFactionNamer.rulePack.rulesStrings.1>union_type->коллектив</ATR_UnionFactionNamer.rulePack.rulesStrings.1>
   <ATR_UnionFactionNamer.rulePack.rulesStrings.2>union_type->федерация</ATR_UnionFactionNamer.rulePack.rulesStrings.2>
   <ATR_UnionFactionNamer.rulePack.rulesStrings.3>union_type->сообщество</ATR_UnionFactionNamer.rulePack.rulesStrings.3>
@@ -20,52 +20,52 @@
   <ATR_UnionFactionNamer.rulePack.rulesStrings.14>union_type->конфедерация</ATR_UnionFactionNamer.rulePack.rulesStrings.14>
   <ATR_UnionFactionNamer.rulePack.rulesStrings.15>union_type->альянс</ATR_UnionFactionNamer.rulePack.rulesStrings.15>
   <ATR_UnionFactionNamer.rulePack.rulesStrings.16>union_type->синдикат</ATR_UnionFactionNamer.rulePack.rulesStrings.16>
-  <ATR_UnionFactionNamer.rulePack.rulesStrings.17>connecting_verb->неразделимы</ATR_UnionFactionNamer.rulePack.rulesStrings.17>
-  <ATR_UnionFactionNamer.rulePack.rulesStrings.18>connecting_verb->железяка</ATR_UnionFactionNamer.rulePack.rulesStrings.18>
-  <ATR_UnionFactionNamer.rulePack.rulesStrings.19>connecting_verb->кованый</ATR_UnionFactionNamer.rulePack.rulesStrings.19>
+  <ATR_UnionFactionNamer.rulePack.rulesStrings.17>connecting_verb->неразлучный</ATR_UnionFactionNamer.rulePack.rulesStrings.17>
+  <ATR_UnionFactionNamer.rulePack.rulesStrings.18>connecting_verb->нерушимый</ATR_UnionFactionNamer.rulePack.rulesStrings.18>
+  <ATR_UnionFactionNamer.rulePack.rulesStrings.19>connecting_verb->железяка</ATR_UnionFactionNamer.rulePack.rulesStrings.19>
   <ATR_UnionFactionNamer.rulePack.rulesStrings.20>connecting_verb->великий</ATR_UnionFactionNamer.rulePack.rulesStrings.20>
   <ATR_UnionFactionNamer.rulePack.rulesStrings.21>connecting_verb->механический</ATR_UnionFactionNamer.rulePack.rulesStrings.21>
   <ATR_UnionFactionNamer.rulePack.rulesStrings.22>connecting_verb->андроид</ATR_UnionFactionNamer.rulePack.rulesStrings.22>
   <ATR_UnionFactionNamer.rulePack.rulesStrings.23>connecting_verb->неорганический</ATR_UnionFactionNamer.rulePack.rulesStrings.23>
-  <ATR_UnionFactionNamer.rulePack.rulesStrings.24>connecting_verb->подключен</ATR_UnionFactionNamer.rulePack.rulesStrings.24>
+  <ATR_UnionFactionNamer.rulePack.rulesStrings.24>connecting_verb->статичный</ATR_UnionFactionNamer.rulePack.rulesStrings.24>
 
   <ATR_UnionSettlementNamer.rulePack.rulesStrings.0>r_name->[place_name]</ATR_UnionSettlementNamer.rulePack.rulesStrings.0>
   <ATR_UnionSettlementNamer.rulePack.rulesStrings.1>r_name->[adjective] [place_name]</ATR_UnionSettlementNamer.rulePack.rulesStrings.1>
-  <ATR_UnionSettlementNamer.rulePack.rulesStrings.2>r_name->[place_type] of [place_name]</ATR_UnionSettlementNamer.rulePack.rulesStrings.2>
-  <ATR_UnionSettlementNamer.rulePack.rulesStrings.3>place_name->edoset</ATR_UnionSettlementNamer.rulePack.rulesStrings.3>
-  <ATR_UnionSettlementNamer.rulePack.rulesStrings.4>place_name->keley</ATR_UnionSettlementNamer.rulePack.rulesStrings.4>
-  <ATR_UnionSettlementNamer.rulePack.rulesStrings.5>place_name->vinmouth</ATR_UnionSettlementNamer.rulePack.rulesStrings.5>
-  <ATR_UnionSettlementNamer.rulePack.rulesStrings.6>place_name->irieshire</ATR_UnionSettlementNamer.rulePack.rulesStrings.6>
+  <ATR_UnionSettlementNamer.rulePack.rulesStrings.2>r_name->[place_type] [place_name]</ATR_UnionSettlementNamer.rulePack.rulesStrings.2>
+  <ATR_UnionSettlementNamer.rulePack.rulesStrings.3>place_name->эдем</ATR_UnionSettlementNamer.rulePack.rulesStrings.3>
+  <ATR_UnionSettlementNamer.rulePack.rulesStrings.4>place_name->келья</ATR_UnionSettlementNamer.rulePack.rulesStrings.4>
+  <ATR_UnionSettlementNamer.rulePack.rulesStrings.5>place_name->винмут</ATR_UnionSettlementNamer.rulePack.rulesStrings.5>
+  <ATR_UnionSettlementNamer.rulePack.rulesStrings.6>place_name->ирешир</ATR_UnionSettlementNamer.rulePack.rulesStrings.6>
   <ATR_UnionSettlementNamer.rulePack.rulesStrings.7>place_name->olkvale</ATR_UnionSettlementNamer.rulePack.rulesStrings.7>
-  <ATR_UnionSettlementNamer.rulePack.rulesStrings.8>place_name->andridge</ATR_UnionSettlementNamer.rulePack.rulesStrings.8>
-  <ATR_UnionSettlementNamer.rulePack.rulesStrings.9>place_name->exalos</ATR_UnionSettlementNamer.rulePack.rulesStrings.9>
-  <ATR_UnionSettlementNamer.rulePack.rulesStrings.10>place_name->cerulle</ATR_UnionSettlementNamer.rulePack.rulesStrings.10>
-  <ATR_UnionSettlementNamer.rulePack.rulesStrings.11>place_name->sonus</ATR_UnionSettlementNamer.rulePack.rulesStrings.11>
-  <ATR_UnionSettlementNamer.rulePack.rulesStrings.12>place_name->volance</ATR_UnionSettlementNamer.rulePack.rulesStrings.12>
-  <ATR_UnionSettlementNamer.rulePack.rulesStrings.13>place_name->orion</ATR_UnionSettlementNamer.rulePack.rulesStrings.13>
-  <ATR_UnionSettlementNamer.rulePack.rulesStrings.14>place_name->cerulis</ATR_UnionSettlementNamer.rulePack.rulesStrings.14>
-  <ATR_UnionSettlementNamer.rulePack.rulesStrings.15>adjective->new</ATR_UnionSettlementNamer.rulePack.rulesStrings.15>
-  <ATR_UnionSettlementNamer.rulePack.rulesStrings.16>adjective->nova</ATR_UnionSettlementNamer.rulePack.rulesStrings.16>
-  <ATR_UnionSettlementNamer.rulePack.rulesStrings.17>adjective->neo</ATR_UnionSettlementNamer.rulePack.rulesStrings.17>
-  <ATR_UnionSettlementNamer.rulePack.rulesStrings.18>adjective->major</ATR_UnionSettlementNamer.rulePack.rulesStrings.18>
-  <ATR_UnionSettlementNamer.rulePack.rulesStrings.19>place_type->city</ATR_UnionSettlementNamer.rulePack.rulesStrings.19>
-  <ATR_UnionSettlementNamer.rulePack.rulesStrings.20>place_type->town</ATR_UnionSettlementNamer.rulePack.rulesStrings.20>
-  <ATR_UnionSettlementNamer.rulePack.rulesStrings.21>place_type->townlet</ATR_UnionSettlementNamer.rulePack.rulesStrings.21>
-  <ATR_UnionSettlementNamer.rulePack.rulesStrings.22>place_type->cosmopolis</ATR_UnionSettlementNamer.rulePack.rulesStrings.22>
+  <ATR_UnionSettlementNamer.rulePack.rulesStrings.8>place_name->эндридж</ATR_UnionSettlementNamer.rulePack.rulesStrings.8>
+  <ATR_UnionSettlementNamer.rulePack.rulesStrings.9>place_name->экзалос</ATR_UnionSettlementNamer.rulePack.rulesStrings.9>
+  <ATR_UnionSettlementNamer.rulePack.rulesStrings.10>place_name->церилл</ATR_UnionSettlementNamer.rulePack.rulesStrings.10>
+  <ATR_UnionSettlementNamer.rulePack.rulesStrings.11>place_name->сонас</ATR_UnionSettlementNamer.rulePack.rulesStrings.11>
+  <ATR_UnionSettlementNamer.rulePack.rulesStrings.12>place_name->атарис</ATR_UnionSettlementNamer.rulePack.rulesStrings.12>
+  <ATR_UnionSettlementNamer.rulePack.rulesStrings.13>place_name->орион</ATR_UnionSettlementNamer.rulePack.rulesStrings.13>
+  <ATR_UnionSettlementNamer.rulePack.rulesStrings.14>place_name->церилис</ATR_UnionSettlementNamer.rulePack.rulesStrings.14>
+  <ATR_UnionSettlementNamer.rulePack.rulesStrings.15>adjective->новый</ATR_UnionSettlementNamer.rulePack.rulesStrings.15>
+  <ATR_UnionSettlementNamer.rulePack.rulesStrings.16>adjective->нова</ATR_UnionSettlementNamer.rulePack.rulesStrings.16>
+  <ATR_UnionSettlementNamer.rulePack.rulesStrings.17>adjective->нео</ATR_UnionSettlementNamer.rulePack.rulesStrings.17>
+  <ATR_UnionSettlementNamer.rulePack.rulesStrings.18>adjective->тяжёлый</ATR_UnionSettlementNamer.rulePack.rulesStrings.18>
+  <ATR_UnionSettlementNamer.rulePack.rulesStrings.19>place_type->город</ATR_UnionSettlementNamer.rulePack.rulesStrings.19>
+  <ATR_UnionSettlementNamer.rulePack.rulesStrings.20>place_type->поселение</ATR_UnionSettlementNamer.rulePack.rulesStrings.20>
+  <ATR_UnionSettlementNamer.rulePack.rulesStrings.21>place_type->деревня</ATR_UnionSettlementNamer.rulePack.rulesStrings.21>
+  <ATR_UnionSettlementNamer.rulePack.rulesStrings.22>place_type->космополис</ATR_UnionSettlementNamer.rulePack.rulesStrings.22>
 
 
   <!-- Marauders -->
 
-  <ATR_MarauderFactionNamer.rulePack.rulesStrings.0>r_name->The [connecting_verb] [political_raider_androids]</ATR_MarauderFactionNamer.rulePack.rulesStrings.0>
-  <ATR_MarauderFactionNamer.rulePack.rulesStrings.1>political_raider_androids->enclave</ATR_MarauderFactionNamer.rulePack.rulesStrings.1>
-  <ATR_MarauderFactionNamer.rulePack.rulesStrings.2>political_raider_androids->march</ATR_MarauderFactionNamer.rulePack.rulesStrings.2>
-  <ATR_MarauderFactionNamer.rulePack.rulesStrings.3>political_raider_androids->uprising</ATR_MarauderFactionNamer.rulePack.rulesStrings.3>
-  <ATR_MarauderFactionNamer.rulePack.rulesStrings.4>political_raider_androids->militia</ATR_MarauderFactionNamer.rulePack.rulesStrings.4>
-  <ATR_MarauderFactionNamer.rulePack.rulesStrings.5>political_raider_androids->revolution</ATR_MarauderFactionNamer.rulePack.rulesStrings.5>
-  <ATR_MarauderFactionNamer.rulePack.rulesStrings.6>connecting_verb->unending</ATR_MarauderFactionNamer.rulePack.rulesStrings.6>
-  <ATR_MarauderFactionNamer.rulePack.rulesStrings.7>connecting_verb->mechanical</ATR_MarauderFactionNamer.rulePack.rulesStrings.7>
-  <ATR_MarauderFactionNamer.rulePack.rulesStrings.8>connecting_verb->unrelenting</ATR_MarauderFactionNamer.rulePack.rulesStrings.8>
-  <ATR_MarauderFactionNamer.rulePack.rulesStrings.9>connecting_verb->land of the</ATR_MarauderFactionNamer.rulePack.rulesStrings.9>
+  <ATR_MarauderFactionNamer.rulePack.rulesStrings.0>r_name-> [connecting_verb] [political_raider_androids]</ATR_MarauderFactionNamer.rulePack.rulesStrings.0>
+  <ATR_MarauderFactionNamer.rulePack.rulesStrings.1>political_raider_androids->шествие</ATR_MarauderFactionNamer.rulePack.rulesStrings.1>
+  <ATR_MarauderFactionNamer.rulePack.rulesStrings.2>political_raider_androids->братство</ATR_MarauderFactionNamer.rulePack.rulesStrings.2>
+  <ATR_MarauderFactionNamer.rulePack.rulesStrings.3>political_raider_androids->восстание</ATR_MarauderFactionNamer.rulePack.rulesStrings.3>
+  <ATR_MarauderFactionNamer.rulePack.rulesStrings.4>political_raider_androids->ополчение</ATR_MarauderFactionNamer.rulePack.rulesStrings.4>
+  <ATR_MarauderFactionNamer.rulePack.rulesStrings.5>political_raider_androids->отвержение</ATR_MarauderFactionNamer.rulePack.rulesStrings.5>
+  <ATR_MarauderFactionNamer.rulePack.rulesStrings.6>connecting_verb->беспощадное</ATR_MarauderFactionNamer.rulePack.rulesStrings.6>
+  <ATR_MarauderFactionNamer.rulePack.rulesStrings.7>connecting_verb->механическое</ATR_MarauderFactionNamer.rulePack.rulesStrings.7>
+  <ATR_MarauderFactionNamer.rulePack.rulesStrings.8>connecting_verb->неослабевающее</ATR_MarauderFactionNamer.rulePack.rulesStrings.8>
+  <ATR_MarauderFactionNamer.rulePack.rulesStrings.9>connecting_verb->сильное</ATR_MarauderFactionNamer.rulePack.rulesStrings.9>
 
 
 </LanguageData>

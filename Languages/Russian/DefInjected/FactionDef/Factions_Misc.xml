@@ -1,17 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <ATR_PlayerAndroidFaction.label>Прибытие новых андроидов</ATR_PlayerAndroidFaction.label>
-  <ATR_PlayerAndroidFaction.description>Ваша Android колония.</ATR_PlayerAndroidFaction.description>
-  <ATR_PlayerAndroidFaction.pawnsPlural>колонисты</ATR_PlayerAndroidFaction.pawnsPlural>
+  <ATR_PlayerAndroidFaction.label>Новое Поселение Андроидов</ATR_PlayerAndroidFaction.label>
+  <ATR_PlayerAndroidFaction.description>Ваше поселение андроидов.</ATR_PlayerAndroidFaction.description>
+  <ATR_PlayerAndroidFaction.pawnsPlural>поселенцы</ATR_PlayerAndroidFaction.pawnsPlural>
 
-  <ATR_MechanicalMarauders.label>Механические мародеры</ATR_MechanicalMarauders.label>
-  <ATR_MechanicalMarauders.description>Изгнанные или изгнанные из человеческого общества, или спасаясь от рабства, многие механические существа объединяются в группы злобных бандитов. Объединенные любовью к грабежам и вымещению агрессии на тех, кто стремится производить, а не разрушать, эти мародеры предпочитают терроризировать других, а не воевать друг с другом.\n\n\nДипломатия неприемлема с любой фракцией, которая позволяет органическим существам быть кем-то, кроме пленников, но мародеры могут научиться терпимо относиться к единомышленникам из механических фракций.</ATR_MechanicalMarauders.description>
-  <ATR_MechanicalMarauders.pawnsPlural>мародеры</ATR_MechanicalMarauders.pawnsPlural>
-  <ATR_MechanicalMarauders.leaderTitle>капитан мародеров</ATR_MechanicalMarauders.leaderTitle>
+  <ATR_MechanicalMarauders.label>Механические Налётчики</ATR_MechanicalMarauders.label>
+  <ATR_MechanicalMarauders.description>Изгои, изгнанники и бывшие рабы объединившиеся в банду злобных механических налётчиков. Движимы любовью к грабежам своих более продуктивных соседей, эти мародёры предпочитают нападать на всех остальных вместо того, чтобы воевать друг с другом.\n\nДипломатия неприемлема с любой фракцией, которая позволяет любым органическим видам гуманоидов быть кем-то, кроме заключённых, но налётчики могут научиться терпимо относиться к единомышленникам из механических фракций.</ATR_MechanicalMarauders.description>
+  <ATR_MechanicalMarauders.pawnsPlural>налётчик</ATR_MechanicalMarauders.pawnsPlural>
+  <ATR_MechanicalMarauders.leaderTitle>капитан налётчиков</ATR_MechanicalMarauders.leaderTitle>
 
-  <ATR_AndroidUnion.label>Андроиды гражданские</ATR_AndroidUnion.label>
-  <ATR_AndroidUnion.description>RimWorlds, с их жестким отсутствием правил, являются прекрасным местом для укоренения обществ андроидов. Эти андроиды решили сформировать союз полунезависимых городов для взаимной защиты и процветания. В целом они готовы к торговле и сотрудничеству, и желают лишь жить в мире.\n\nЭта фракция обычно торгует высокотехнологичными товарами наряду с основными товарами первой необходимости.</ATR_AndroidUnion.description>
+  <ATR_AndroidUnion.label>Коалиция Андроидов</ATR_AndroidUnion.label>
+  <ATR_AndroidUnion.description>Окраинные миры, с их жёстким отсутствием правил, являются прекрасным местом для укоренения обществ андроидов. Эти андроиды решили образовать союз полунезависимых городов для взаимной обороны и процветания. Они, как правило, любят торговлю и сотрудничество, и хотят жить в мире.\n\nЭта фракция обычно торгует высокотехнологичными товарами наряду с основными товарами первой необходимости.</ATR_AndroidUnion.description>
   <ATR_AndroidUnion.pawnsPlural>андроиды</ATR_AndroidUnion.pawnsPlural>
   <ATR_AndroidUnion.leaderTitle>лидер коалиции</ATR_AndroidUnion.leaderTitle>
 
