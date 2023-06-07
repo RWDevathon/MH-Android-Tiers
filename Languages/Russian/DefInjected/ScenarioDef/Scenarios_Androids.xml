@@ -2,11 +2,11 @@
 <LanguageData>
 
   <ATR_CrashlandedAndroids.label>Аварийная посадка андроидов</ATR_CrashlandedAndroids.label>
-  <ATR_CrashlandedAndroids.description>Вы завершили реинициализацию системы прямо перед разрушением атмосферы в том, что кажется спасательной капсулой. Банки памяти для последних данных пусты, и нет файлов, указывающих на недавнюю цель, директивы или историю. Вы целы - этого пока достаточно.</ATR_CrashlandedAndroids.description>
+  <ATR_CrashlandedAndroids.description>Вы завершили инициализацию ядра прямо перед тем, как войти в атмосферу планеты. Банки памяти последних данных пусты, и нет файлов, указывающих на назначение или вашу историю. Вы невредимы — этого пока достаточно.</ATR_CrashlandedAndroids.description>
   <ATR_CrashlandedAndroids.scenario.name>Аварийная посадка андроидов</ATR_CrashlandedAndroids.scenario.name>
-  <ATR_CrashlandedAndroids.scenario.summary>Три выживших андроида, потерпевших крушение, - классический опыт RimWorld с механическим уклоном.</ATR_CrashlandedAndroids.scenario.summary>
-  <ATR_CrashlandedAndroids.scenario.description>Вы завершили реинициализацию системы прямо перед разрушением атмосферы в том, что кажется спасательной капсулой. Банки памяти для последних данных пусты, и нет файлов, указывающих на недавнюю цель, директивы или историю. Вы целы - этого пока достаточно.</ATR_CrashlandedAndroids.scenario.description>
-  <ATR_CrashlandedAndroids.scenario.parts.16.text>Место крушения отмечено органической жизнью и разбитыми частями корабля. Планета, поддерживающая жизнь. Шансы на выживание находятся в приемлемых пределах.</ATR_CrashlandedAndroids.scenario.parts.16.text>
+  <ATR_CrashlandedAndroids.scenario.summary>Трое выживших андроидов, совершивших аварийную посадку — классический сценарий RimWorld с механическими пешками.</ATR_CrashlandedAndroids.scenario.summary>
+  <ATR_CrashlandedAndroids.scenario.description>Вы завершили инициализацию ядра прямо перед тем, как войти в атмосферу планеты. Банки памяти последних данных пусты, и нет файлов, указывающих на назначение или вашу историю. Вы невредимы — этого пока достаточно.</ATR_CrashlandedAndroids.scenario.description>
+  <ATR_CrashlandedAndroids.scenario.parts.19.text>Место аварии имеет поблизости органическую жизнь и сломанные части корабля. Планета пригодна для жизни. Оценки шансов на выживание находятся в допустимых пределах.</ATR_CrashlandedAndroids.scenario.parts.19.text>
 
 
 </LanguageData>

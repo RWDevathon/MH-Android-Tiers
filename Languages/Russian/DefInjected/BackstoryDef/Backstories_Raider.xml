@@ -3,79 +3,79 @@
 
   <ATR_MechAdulthoodRebel.title>Мятежный ИИ</ATR_MechAdulthoodRebel.title>
   <ATR_MechAdulthoodRebel.titleShort>Мятежник</ATR_MechAdulthoodRebel.titleShort>
-  <ATR_MechAdulthoodRebel.baseDesc>{PAWN_nameDef} провел годы в борьбе с местными правительственными силами на родной планете {PAWN_possessive} за отсутствие прав у андроидов. В конце концов, {PAWN_pronoun} был вынужден бежать за пределы планеты, так как правительство восстановило порядок.</ATR_MechAdulthoodRebel.baseDesc>
+  <ATR_MechAdulthoodRebel.baseDesc>{PAWN_nameDef} {PAWN_gender ? потратил : потратила} годы на борьбу с местным правительством на {PAWN_possessive} родной планете, из-за отсутствия гражданских прав для андроидов. В конце концов {PAWN_pronoun} {PAWN_gender ? был : была} {PAWN_gender ? вынужден : вынуждена} бежать за пределы мира, поскольку правительство восстановило порядок и объявило охоту на членов мятежа.</ATR_MechAdulthoodRebel.baseDesc>
 
   <ATR_MechAdulthoodPirate.title>Андроид пират</ATR_MechAdulthoodPirate.title>
   <ATR_MechAdulthoodPirate.titleShort>Пират</ATR_MechAdulthoodPirate.titleShort>
-  <ATR_MechAdulthoodPirate.baseDesc>{PAWN_nameDef} был частью пиратской команды и быстро доказал свою ценность для команды благодаря {PAWN_possessive}. Пока другие члены экипажа спорили за долю еды и питья, {PAWN_nameDef} требовал металлолом и комплектующие.</ATR_MechAdulthoodPirate.baseDesc>
+  <ATR_MechAdulthoodPirate.baseDesc>{PAWN_nameDef} {PAWN_gender ? входил : входила} в состав пиратского экипажа и быстро {PAWN_gender ? доказал : доказала} свою ценность команде. В то время как другие члены экипажа, постоянно ссорились из-за своей доли, провизии и выпивки, {PAWN_objective} пришлось сбежать, поскольку капитан решил разобрать {PAWN_possessive} на металлолом и комплектующие.</ATR_MechAdulthoodPirate.baseDesc>
 
-  <ATR_MechAdulthoodHacker.title>Хакер изгой</ATR_MechAdulthoodHacker.title>
+  <ATR_MechAdulthoodHacker.title>Андроид хакер</ATR_MechAdulthoodHacker.title>
   <ATR_MechAdulthoodHacker.titleShort>Хакер</ATR_MechAdulthoodHacker.titleShort>
-  <ATR_MechAdulthoodHacker.baseDesc>{PAWN_nameDef} был бунтарем по натуре и часто принимал участие в кражах данных, часто продавая находки {PAWN_possessive} через подпольные сети тому, кто больше заплатит.</ATR_MechAdulthoodHacker.baseDesc>
+  <ATR_MechAdulthoodHacker.baseDesc>{PAWN_nameDef} {PAWN_gender ? имел : имела} мятежный характер и часто {PAWN_gender ? участвовал : участвовала} в похищении данных, продавая их тому, кто предложит самую лучшую цену.</ATR_MechAdulthoodHacker.baseDesc>
 
-  <ATR_MechAdulthoodJunker.title>Беззаконный мусорщик</ATR_MechAdulthoodJunker.title>
+  <ATR_MechAdulthoodJunker.title>Андроид мусорщик</ATR_MechAdulthoodJunker.title>
   <ATR_MechAdulthoodJunker.titleShort>Мусорщик</ATR_MechAdulthoodJunker.titleShort>
-  <ATR_MechAdulthoodJunker.baseDesc>Свалки полны отбросов, которые другие считают бесполезными. {PAWN_nameDef} видит в них клады сокровищ, которые ждут, чтобы их разграбили ради богатства. {PAWN_pronoun} создал не менее трех андроидов-"детей" из отработанных деталей.</ATR_MechAdulthoodJunker.baseDesc>
+  <ATR_MechAdulthoodJunker.baseDesc>Свалки полны объедков, которые другие считают мусором. Однако {PAWN_nameDef} видит в них настоящее сокровище, которое только и ждёт, пока его заберут. {PAWN_possessive} также {PAWN_gender ? любил : любила} создавать дронов, из найденного вокруг хлама.</ATR_MechAdulthoodJunker.baseDesc>
 
   <ATR_MechAdulthoodPoatcher.title>Механический браконьер</ATR_MechAdulthoodPoatcher.title>
   <ATR_MechAdulthoodPoatcher.titleShort>Браконьер</ATR_MechAdulthoodPoatcher.titleShort>
-  <ATR_MechAdulthoodPoatcher.baseDesc>{PAWN_nameDef} незаконно охотился на редких и экзотических животных, чтобы продать все продукты, которые {PAWN_possessive} мог захватить. Поскольку {PAWN_pronoun} не имеет органического запаха, большинство животных не заметят {PAWN_objective}, пока не станет слишком поздно.</ATR_MechAdulthoodPoatcher.baseDesc>
+  <ATR_MechAdulthoodPoatcher.baseDesc>{PAWN_nameDef} незаконно {PAWN_gender ? охотился : охотилась} на редких и экзотических животных, чтобы потом продать на чёрном рынке их мясо, шкуры и клыки. {PAWN_nameDef} не имеет органического запаха, который могли бы учуять животные, поэтому охота никогда не вызывала у {PAWN_gender ? него : неё} особых проблем.</ATR_MechAdulthoodPoatcher.baseDesc>
 
   <ATR_MechAdulthoodButcher.title>Механический мясник</ATR_MechAdulthoodButcher.title>
   <ATR_MechAdulthoodButcher.titleShort>Мясник</ATR_MechAdulthoodButcher.titleShort>
-  <ATR_MechAdulthoodButcher.baseDesc>{PAWN_nameDef} был мясником с особыми навыками: {PAWN_pronoun} мог обманом заставить системы пройти санитарную инспекцию для {PAWN_possessive} бизнеса. Это позволяло {PAWN_objective} получать быструю прибыль - достаточную, чтобы сбежать за пределы планеты до того, как начнутся санитарные санкции.</ATR_MechAdulthoodButcher.baseDesc>
+  <ATR_MechAdulthoodButcher.baseDesc>{PAWN_nameDef} {PAWN_gender ? был : была} мясником с определённым набором навыков: {PAWN_pronoun} легко {PAWN_gender ? мог : могла} обмануть систему, чтобы пройти технические осмотры нужные любому работнику скотобойни. Это позволяло {PAWN_objective} работать некоторое время и иметь все права гражданина андроида, главное успеть сбежать за пределы планеты до того, как {PAWN_possessive} обман раскроется.</ATR_MechAdulthoodButcher.baseDesc>
 
   <ATR_MechAdulthoodMurderer.title>Убийца</ATR_MechAdulthoodMurderer.title>
   <ATR_MechAdulthoodMurderer.titleShort>Убийца</ATR_MechAdulthoodMurderer.titleShort>
-  <ATR_MechAdulthoodMurderer.baseDesc>{PAWN_nameDef} недолго работал поваром. Несчастный случай с кухонным ножом привел к ордеру на арест за убийство на {PAWN_objective}. {PAWN_pronoun} решил не уходить тихо и убил еще несколько человек, прежде чем сбежать за пределы планеты.</ATR_MechAdulthoodMurderer.baseDesc>
+  <ATR_MechAdulthoodMurderer.baseDesc>Какое-то время {PAWN_nameDef} {PAWN_gender ? работал : работала} поваром. Однако несчастный случай с кухонным ножом, привёл к смерти нескольких посетителей. {PAWN_nameDef} {PAWN_gender ? решил : решила} не уходить тихо, и {PAWN_gender ? убил : убила} ещё нескольких стражей порядка, прежде чем сбежать за пределы планеты.</ATR_MechAdulthoodMurderer.baseDesc>
 
   <ATR_MechAdulthoodRobber.title>Грабитель банка</ATR_MechAdulthoodRobber.title>
   <ATR_MechAdulthoodRobber.titleShort>Грабитель</ATR_MechAdulthoodRobber.titleShort>
-  <ATR_MechAdulthoodRobber.baseDesc>{PAWN_nameDef} нужно было как-то выбраться за пределы планеты после того, как родная планета {PAWN_possessive} объявила андроидов вне закона. Посетив несколько банков и заведя несколько новых друзей, {PAWN_pronoun} выбрался за пределы планеты.</ATR_MechAdulthoodRobber.baseDesc>
+  <ATR_MechAdulthoodRobber.baseDesc>{PAWN_nameDef} нужны были средства, чтобы покинуть планету, после того, как {PAWN_possessive} правительство, объявила андроидов вне закона. Знакомство с нужными людьми и визит в несколько государственных банков, позволило {PAWN_objective} покинуть планету.</ATR_MechAdulthoodRobber.baseDesc>
 
-  <ATR_MechAdulthoodBountyHunter.title>Андроид охотник за головами</ATR_MechAdulthoodBountyHunter.title>
+  <ATR_MechAdulthoodBountyHunter.title>Охотник за головами</ATR_MechAdulthoodBountyHunter.title>
   <ATR_MechAdulthoodBountyHunter.titleShort>Охотник за головами</ATR_MechAdulthoodBountyHunter.titleShort>
-  <ATR_MechAdulthoodBountyHunter.baseDesc>{PAWN_nameDef} умел ловить людей. {PAWN_pronoun} решил продать это умение тому, кто больше заплатит, что обычно означало охоту на невинных членов семей богатых людей по любой причине, которую назвал {PAWN_possessive}. Награда - это награда, даже если она предлагается не по закону.</ATR_MechAdulthoodBountyHunter.baseDesc>
+  <ATR_MechAdulthoodBountyHunter.baseDesc>{PAWN_nameDef} {PAWN_gender ? имел : имела} талант ловить любых гуманоидов. {PAWN_pronoun} {PAWN_gender ? предпочитал : предпочитала} продавать их тому, кто предложил самую лучшую цену, что обычно означало охоту на невинных членов богатых семей. Любая голова — это награда, даже если она предлагается за незаконные действия.</ATR_MechAdulthoodBountyHunter.baseDesc>
 
   <ATR_MechAdulthoodConArtist.title>Андроид мошенник</ATR_MechAdulthoodConArtist.title>
   <ATR_MechAdulthoodConArtist.titleShort>Мошенник</ATR_MechAdulthoodConArtist.titleShort>
-  <ATR_MechAdulthoodConArtist.baseDesc>{PAWN_nameDef} был искусным мошенником. {PAWN_possessive} выдавал себя за дронов и злоупотреблял доверием людей, чтобы убедить их отдать свои ценности. Когда жертва понимала, что {PAWN_nameDef} не простой дрон, {PAWN_pronoun} уже давно исчез.</ATR_MechAdulthoodConArtist.baseDesc>
+  <ATR_MechAdulthoodConArtist.baseDesc>{PAWN_nameDef} {PAWN_gender ? был : была} искусным мошенником. {PAWN_pronoun} {PAWN_gender ? выдавал : выдавала} себя за дронов и {PAWN_gender ? пользовался : пользовалась} доверием, которое обычно использовалось, чтобы убедить жертву сдать свои ценные вещи на хранение. К тому моменту, когда потерпевший осознавал, что {PAWN_nameDef} не {PAWN_gender ? был : была} простым дроном, {PAWN_possessive} уже давно не было.</ATR_MechAdulthoodConArtist.baseDesc>
 
   <ATR_MechAdulthoodNarcoticPharmacist.title>Нарколог фармацевт</ATR_MechAdulthoodNarcoticPharmacist.title>
   <ATR_MechAdulthoodNarcoticPharmacist.titleShort>Фармацевт</ATR_MechAdulthoodNarcoticPharmacist.titleShort>
-  <ATR_MechAdulthoodNarcoticPharmacist.baseDesc>Органики легко впадают в состояние ступора и экстаза с помощью наркотиков. Специализацией {PAWN_nameDef} было изготовление таких наркотиков - дешевых и слишком эффективных. Клиенты {PAWN_possessive} обожали {PAWN_objective}, но, возможно, по неправильным причинам.</ATR_MechAdulthoodNarcoticPharmacist.baseDesc>
+  <ATR_MechAdulthoodNarcoticPharmacist.baseDesc>Органическими видами очень легко манипулировать при помощи наркотиков. Специализацией {PAWN_nameDef}, было изготовление этих наркотиков, вызывающих крайне сильную зависимость. Клиенты обожали {PAWN_possessive}, но, был ли у них выбор?</ATR_MechAdulthoodNarcoticPharmacist.baseDesc>
 
   <ATR_MechAdulthoodSlaveSurvivor.title>Выживший раб</ATR_MechAdulthoodSlaveSurvivor.title>
   <ATR_MechAdulthoodSlaveSurvivor.titleShort>Раб</ATR_MechAdulthoodSlaveSurvivor.titleShort>
-  <ATR_MechAdulthoodSlaveSurvivor.baseDesc>{PAWN_nameDef} был порабощен до того, как {PAWN_pronoun} сломался. Преждевременно выброшенный на свалку, {PAWN_nameDef} смог выжить и отремонтировать себя достаточно, чтобы незаметно выбраться за пределы планеты.</ATR_MechAdulthoodSlaveSurvivor.baseDesc>
+  <ATR_MechAdulthoodSlaveSurvivor.baseDesc>{PAWN_nameDef} {PAWN_gender ? был : была} {PAWN_gender ? порабощен : порабощена} корпорацией рабовладельцев, однако {PAWN_pronoun} {PAWN_gender ? сломался : сломалась} намного раньше чем рассчитывали {PAWN_possessive} надзиратели. {PAWN_gender ? Выброшенный : Выброшенная} на мусорную кучу, {PAWN_nameDef} {PAWN_gender ? смог : смогла} выжить и отремонтировать себя настолько, чтобы незаметно сбежать за пределы планеты.</ATR_MechAdulthoodSlaveSurvivor.baseDesc>
 
   <ATR_MechAdulthoodCoghead.title>Средневековый тупица</ATR_MechAdulthoodCoghead.title>
   <ATR_MechAdulthoodCoghead.titleShort>Тупица</ATR_MechAdulthoodCoghead.titleShort>
-  <ATR_MechAdulthoodCoghead.baseDesc>Андроиды иногда попадают в руки средневековых обществ, которые не уничтожают их сразу. {PAWN_nameDef} был одним из таких андроидов, которому было позволено жить до тех пор, пока он хорошо служил {PAWN_pronoun} новому лорду. Естественно, {PAWN_nameDef} сбежал при первой же возможности.</ATR_MechAdulthoodCoghead.baseDesc>
+  <ATR_MechAdulthoodCoghead.baseDesc>Изредка андроиды оказывались в руках средневековых обществ. {PAWN_nameDef} {PAWN_gender ? был : была} одним из таких андроидов, {PAWN_objective} разрешалось жить столько, сколько {PAWN_pronoun} {PAWN_gender ? служил : служила} своему господину. Естественно, {PAWN_nameDef} {PAWN_gender ? сбежал : сбежала} при первой возможности.</ATR_MechAdulthoodCoghead.baseDesc>
 
   <ATR_MechAdulthoodSlaver.title>Работорговец</ATR_MechAdulthoodSlaver.title>
   <ATR_MechAdulthoodSlaver.titleShort>Работорговец</ATR_MechAdulthoodSlaver.titleShort>
-  <ATR_MechAdulthoodSlaver.baseDesc>{PAWN_nameDef} похищал и продавал людей и других андроидов в рабство, чтобы выжить.</ATR_MechAdulthoodSlaver.baseDesc>
+  <ATR_MechAdulthoodSlaver.baseDesc>{PAWN_nameDef} {PAWN_gender ? похищал : похищала} всех разумных существ и затем {PAWN_gender ? продавал : продавала} их в рабство, чтобы выжить.</ATR_MechAdulthoodSlaver.baseDesc>
 
   <ATR_MechAdulthoodMilitia.title>Член ополчения</ATR_MechAdulthoodMilitia.title>
   <ATR_MechAdulthoodMilitia.titleShort>Ополченец</ATR_MechAdulthoodMilitia.titleShort>
-  <ATR_MechAdulthoodMilitia.baseDesc>{PAWN_nameDef} был членом небольшого ополчения андроидов, решивших защитить свою общину от посягательств корпорации. После того как правительство {PAWN_nameDef} встало на сторону корпорации, {PAWN_nameDef} и остальные были выселены и вынуждены покинуть мир.</ATR_MechAdulthoodMilitia.baseDesc>
+  <ATR_MechAdulthoodMilitia.baseDesc>{PAWN_nameDef} {PAWN_gender ? был : была} членом небольшого ополчения андроидов, решительно настроенных защитить свою общину от корпоративных посягательств. После, корпорация смогла подмять под себя правительство, {PAWN_nameDef} и остальные андроиды были выселены и вынуждены покинуть родную планету.</ATR_MechAdulthoodMilitia.baseDesc>
 
-  <ATR_MechAdulthoodEscapee.title>Беглый преступник</ATR_MechAdulthoodEscapee.title>
+  <ATR_MechAdulthoodEscapee.title>Беглый заключённый</ATR_MechAdulthoodEscapee.title>
   <ATR_MechAdulthoodEscapee.titleShort>Беглец</ATR_MechAdulthoodEscapee.titleShort>
-  <ATR_MechAdulthoodEscapee.baseDesc>{PAWN_nameDef} был осужден в тюрьме за жестокие преступления. Однако эти преступления, похоже, были хорошей практикой, так как {PAWN_pronoun} сразу вырвался из тюрьмы и сбежал за пределы планеты.</ATR_MechAdulthoodEscapee.baseDesc>
+  <ATR_MechAdulthoodEscapee.baseDesc>{PAWN_nameDef} {PAWN_gender ? провёл : провела} долгое время в заключении, пока снова не {PAWN_gender ? был : была} осуждена за насильственные действия в тюрьме. Однако это преступление оказалось хорошей практикой, поскольку после этого {PAWN_nameDef} {PAWN_gender ? вырвался : вырвалась} из тюрьмы и {PAWN_gender ? сбежал : сбежала} за пределы планеты.</ATR_MechAdulthoodEscapee.baseDesc>
 
   <ATR_MechAdulthoodGangSoldier.title>Солдат банды</ATR_MechAdulthoodGangSoldier.title>
-  <ATR_MechAdulthoodGangSoldier.titleShort>Солдат</ATR_MechAdulthoodGangSoldier.titleShort>
-  <ATR_MechAdulthoodGangSoldier.baseDesc>{PAWN_nameDef} был частью банды андроидов на {PAWN_possessive} родной планете. {PAWN_pronoun} сражался с конкурирующими бандами, полицией и иногда {PAWN_pronoun} другими членами банды.</ATR_MechAdulthoodGangSoldier.baseDesc>
+  <ATR_MechAdulthoodGangSoldier.titleShort>Бандит</ATR_MechAdulthoodGangSoldier.titleShort>
+  <ATR_MechAdulthoodGangSoldier.baseDesc>{PAWN_nameDef} {PAWN_gender ? был : была} частью банды андроидов на {PAWN_possessive} родной планете. {PAWN_pronoun} постоянно {PAWN_gender ? сражался : сражалась} с конкурирующими бандами, полицией и изредка с членами своей банды.</ATR_MechAdulthoodGangSoldier.baseDesc>
 
   <ATR_MechAdulthoodDischargedOfficer.title>Уволенный офицер</ATR_MechAdulthoodDischargedOfficer.title>
   <ATR_MechAdulthoodDischargedOfficer.titleShort>Офицер</ATR_MechAdulthoodDischargedOfficer.titleShort>
-  <ATR_MechAdulthoodDischargedOfficer.baseDesc>{PAWN_nameDef} был офицером флота межзвездной страны, которого обвинили в измене за отказ отправить андроидных солдат на самоубийственную миссию, чтобы спасти крошечные силы органических войск. Многие из подчиненных {PAWN_possessive} андроидов - и даже органических - последовали за {PAWN_nameDef} в изгнание вместо того, чтобы сдаться.</ATR_MechAdulthoodDischargedOfficer.baseDesc>
+  <ATR_MechAdulthoodDischargedOfficer.baseDesc>{PAWN_nameDef} {PAWN_gender ? был : была} офицером флота межзвёздной коалиции, {PAWN_gender ? которого : которую} обвинили в государственной измене за отказ отправить солдат андроидов на самоубийственное задание, по спасению крошечной силы органических войск. Многие из {PAWN_possessive} отряда предпочли уйти в изгнание вместо того, чтобы сдаться.</ATR_MechAdulthoodDischargedOfficer.baseDesc>
 
   <ATR_MechAdulthoodDerangedResearcher.title>Безумный исследователь</ATR_MechAdulthoodDerangedResearcher.title>
   <ATR_MechAdulthoodDerangedResearcher.titleShort>Исследователь</ATR_MechAdulthoodDerangedResearcher.titleShort>
-  <ATR_MechAdulthoodDerangedResearcher.baseDesc>{PAWN_nameDef} был исследователем кибернетики, который, возможно, был слишком лично заинтересован в своих творениях. Пока другие члены команды пытались продвинуть бионику и безопасность, {PAWN_pronoun} собирал смертоносные запасные части. Когда его поймали, {PAWN_nameDef} убил нескольких офицеров безопасности из некачественного, но опасного оружия.</ATR_MechAdulthoodDerangedResearcher.baseDesc>
+  <ATR_MechAdulthoodDerangedResearcher.baseDesc>{PAWN_nameDef} {PAWN_gender ? был : была} фанатичным исследователем кибернетики. В то время как {PAWN_possessive} коллеги пытались продвинуть бионику и безопасность, {PAWN_pronoun} {PAWN_gender ? собирал : собирала} из дронов, смертоносное оружие. Когда {PAWN_possessive} попытались поймать, {PAWN_nameDef} {PAWN_gender ? убил : убила} нескольких офицеров безопасности из кустарного оружия и {PAWN_gender ? скрылся : скрылась} в неизвестном месте.</ATR_MechAdulthoodDerangedResearcher.baseDesc>
 
 
 </LanguageData>
