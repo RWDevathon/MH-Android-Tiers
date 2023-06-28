@@ -51,7 +51,6 @@
             <MHC_MaintenanceRetention>1.4</MHC_MaintenanceRetention>
             <MHC_NutritionalIntakeEfficiency>0.25</MHC_NutritionalIntakeEfficiency>
             <MHC_ChargingSpeed>1.5</MHC_ChargingSpeed>
-            <MHC_MechanicalNeedCapacity>3</MHC_MechanicalNeedCapacity>
 			<Mass>144</Mass>
 		</statBases>
 		<tools>
@@ -131,8 +130,8 @@
                     <li>Comfort</li>
                 </blacklistedSapientNeeds>
                 <mechanicalNeeds>
-                    <li>MHC_Coolant</li>
-                    <li>MHC_Lubrication</li>
+                    <MHC_Coolant>3</MHC_Coolant>
+                    <MHC_Lubrication>2</MHC_Lubrication>
                 </mechanicalNeeds>
             </li>
             <li Class="ATReforged.ATR_PawnExtension">

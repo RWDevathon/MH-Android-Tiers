@@ -52,7 +52,6 @@
             <MHC_MaintenanceRetention>1.8</MHC_MaintenanceRetention>
             <MHC_NutritionalIntakeEfficiency>0.25</MHC_NutritionalIntakeEfficiency>
             <MHC_ChargingSpeed>2</MHC_ChargingSpeed>
-            <MHC_MechanicalNeedCapacity>3.5</MHC_MechanicalNeedCapacity>
 			<Mass>84</Mass>
 		</statBases>
 		<tools>
@@ -129,8 +128,8 @@
                     <li MayRequire="Dubwise.DubsBadHygiene">DBHThirst</li>
                 </blacklistedNeeds>
                 <mechanicalNeeds>
-                    <li>MHC_Coolant</li>
-                    <li>MHC_Lubrication</li>
+                    <MHC_Coolant>1.5</MHC_Coolant>
+                    <MHC_Lubrication>1</MHC_Lubrication>
                 </mechanicalNeeds>
             </li>
             <li Class="ATReforged.ATR_PawnExtension">
