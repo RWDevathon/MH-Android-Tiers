@@ -37,6 +37,9 @@
         </graphicData>
         <recipeMaker>
             <workAmount>22500</workAmount>
+            <skillRequirements>
+                <Crafting>6</Crafting>
+            </skillRequirements>
             <researchPrerequisite>ATR_T2Androids</researchPrerequisite>
         </recipeMaker>
         <costList>
@@ -66,7 +69,7 @@
         <recipeMaker>
             <workAmount>28500</workAmount>
             <skillRequirements>
-                <Crafting>14</Crafting>
+                <Crafting>8</Crafting>
             </skillRequirements>
             <researchPrerequisite>ATR_T3Androids</researchPrerequisite>
         </recipeMaker>
@@ -97,8 +100,7 @@
         <recipeMaker>
             <workAmount>36500</workAmount>
             <skillRequirements>
-                <Crafting>16</Crafting>
-                <Intellectual>8</Intellectual>
+                <Crafting>10</Crafting>
             </skillRequirements>
             <researchPrerequisite>ATR_T4Androids</researchPrerequisite>
         </recipeMaker>

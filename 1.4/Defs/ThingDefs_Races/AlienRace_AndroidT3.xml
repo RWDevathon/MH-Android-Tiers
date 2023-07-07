@@ -112,7 +112,7 @@
         </recipes>
 		<modExtensions>
             <li Class="MechHumanlikes.MHC_MechanicalPawnExtension">
-                <droneSkillLevel>12</droneSkillLevel>
+                <droneSkillLevel>10</droneSkillLevel>
                 <useCustomNoneGenderNameMakers>true</useCustomNoneGenderNameMakers>
                 <sapientNoneGenderNameMaker>ATR_AndroidNoneNames</sapientNoneGenderNameMaker>
                 <droneNoneGenderNameMaker>ATR_DroneNoneNames</droneNoneGenderNameMaker>
@@ -130,8 +130,8 @@
                     <li>Comfort</li>
                 </blacklistedSapientNeeds>
                 <mechanicalNeeds>
-                    <MHC_Coolant>3</MHC_Coolant>
-                    <MHC_Lubrication>2</MHC_Lubrication>
+                    <li><key>MHC_Coolant</key><value>3</value></li>
+                    <li><key>MHC_Lubrication</key><value>2</value></li>
                 </mechanicalNeeds>
             </li>
             <li Class="ATReforged.ATR_PawnExtension">

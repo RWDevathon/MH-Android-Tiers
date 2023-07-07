@@ -146,9 +146,6 @@
 		</pawnGroupMakers>
 		<settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
         <modExtensions>
-            <li MayRequire="OskarPotocki.VFE.Empire" Class="VFEEmpire.FactionExtension_Deserters">
-                <canSendDeserters>false</canSendDeserters>
-            </li>
             <li Class="ATReforged.ATR_FactionAndroidExtension">
                 <membersShouldBeAndroids>true</membersShouldBeAndroids>
             </li>
@@ -276,9 +273,6 @@
 		</pawnGroupMakers>
 		<settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
         <modExtensions>
-            <li MayRequire="OskarPotocki.VFE.Empire" Class="VFEEmpire.FactionExtension_Deserters">
-                <canSendDeserters>false</canSendDeserters>
-            </li>
             <li Class="ATReforged.ATR_FactionAndroidExtension">
                 <membersShouldBeAndroids>true</membersShouldBeAndroids>
             </li>

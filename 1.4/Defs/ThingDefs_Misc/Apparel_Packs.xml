@@ -56,9 +56,6 @@
             <workSkill>Crafting</workSkill>
             <effectWorking>Smith</effectWorking>
             <soundWorking>Recipe_Smith</soundWorking>
-            <skillRequirements>
-                <Crafting>3</Crafting>
-            </skillRequirements>
             <displayPriority>320</displayPriority>
         </recipeMaker>
         <costList>
