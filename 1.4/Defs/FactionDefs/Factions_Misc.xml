@@ -66,9 +66,6 @@
 		<factionNameMaker>ATR_MarauderFactionNamer</factionNameMaker>
 		<settlementNameMaker>NamerSettlementPirate</settlementNameMaker>
         <basicMemberKind>ATR_RaiderSoldierT2</basicMemberKind>
-		<baseTraderKinds>
-			<li>ATR_Base_AndroidCollective_Standard</li>
-		</baseTraderKinds>
 		<colorSpectrum>
 			<li>(0.95, 0.9, 0.92)</li>
 			<li>(0.9, 0.9, 0.9)</li>
@@ -104,7 +101,7 @@
         <raidLootMaker>ATR_AndroidRaidLootMaker</raidLootMaker>
 		<maxPawnCostPerTotalPointsCurve>
 			<points>
-				<li>(0,40)</li>
+				<li>(0,45)</li>
 				<li>(70, 80)</li>
 				<li>(700, 110)</li>
 				<li>(1300, 150)</li>
@@ -193,11 +190,11 @@
             <li MayRequire="Ludeon.RimWorld.Ideology">PainIsVirtue</li>
         </disallowedMemes>
 		<backstoryFilters>
-		  <li>
-			<categories>
-			  <li>ATR_GeneralAndroids</li>
-			</categories>
-		  </li>
+		    <li>
+			    <categories>
+			        <li>ATR_GeneralAndroids</li>
+			    </categories>
+		     </li>
 		</backstoryFilters>
 		<melaninRange>0.1~0.5</melaninRange>
         <raidLootMaker>ATR_AndroidRaidLootMaker</raidLootMaker>
@@ -220,7 +217,7 @@
 		</allowedArrivalTemperatureRange>
 		<maxPawnCostPerTotalPointsCurve>
 			<points>
-				<li>(0,35)</li>
+				<li>(0,40)</li>
 				<li>(70, 50)</li>
 				<li>(700, 100)</li>
 				<li>(1300, 150)</li>

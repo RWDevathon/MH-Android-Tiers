@@ -145,7 +145,7 @@
 		<defName>ATR_MechAdulthoodRiotPolice</defName>
 		<title>Riot officer</title>
 		<titleShort>Officer</titleShort>
-		<baseDesc>As part of a unique line of law enforcement, fitted with a heavy frame, {PAWN_nameDef} was tasked with controlling riots that sprawled out of control through any means necessary.</baseDesc>
+		<baseDesc>{PAWN_nameDef} enlisted in an urban police force and was tasked with controlling riots that sprawled out of control through any means necessary.</baseDesc>
 		<bodyTypeGlobal>Male</bodyTypeGlobal>
 		<slot>Adulthood</slot>
 		<spawnCategories>
@@ -1450,7 +1450,7 @@
 		<defName>ATR_MechAdulthoodSniper</defName>
 		<title>Military sniper</title>
 		<titleShort>Sniper</titleShort>
-		<baseDesc>{PAWN_nameDef} found the mathematical and logical difficulties of accurately firing weapons over long ranges fascinating. {PAWN_nameDef}'s government found {PAWN_possessive} fascination fascinating, and promptly tasked {PAWN_objective} with using such weapons to land projectiles in very particular spots. {PAWN_nameDef} never particularly cared what exactly it was at the end of the projectile trajectory.</baseDesc>
+		<baseDesc>{PAWN_nameDef} found the mathematical and logical difficulties of accurately firing weapons over long ranges fascinating. {PAWN_nameDef}'s government found {PAWN_possessive} fascination fascinating, and promptly tasked {PAWN_objective} with using specialized equipment to land projectiles in very particular spots. {PAWN_nameDef} never particularly cared what exactly happened to be at the end of the projectile trajectory.</baseDesc>
 		<bodyTypeGlobal>Male</bodyTypeGlobal>
 		<slot>Adulthood</slot>
 		<spawnCategories>

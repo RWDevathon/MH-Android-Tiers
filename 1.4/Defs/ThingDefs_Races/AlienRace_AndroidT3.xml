@@ -6,6 +6,11 @@
 		<label>T3 Android</label>
 		<description>Androids classified as tier three are often qualified by their large stature - standing at a height ranging from seven to nine feet - and impressive capabilities. They are incredibly durable, modular, and capable. Requiring extensive amounts of rare resources, they are generally only mass-produced on glitterworlds.</description>
 		<alienRace>
+            <raceRestriction>
+				<traitList>
+					<li>ATR_FeelingsTowardOrganics</li>
+				</traitList>
+            </raceRestriction>
 			<graphicPaths>
                 <body>
                     <path>Things/Pawns/Humanlikes/Tier3/body/Naked_None</path>
@@ -27,13 +32,13 @@
             </graphicPaths>
             <generalSettings>
                 <alienPartGenerator>
+					<headBodyPartDef>ATR_MechanicalHead</headBodyPartDef>
 					<headTypes>
                         <li>ATR_Tier3_Male</li>
                         <li>ATR_Tier3_Female</li>
                         <li>ATR_Tier3_None</li>
                     </headTypes>
                 </alienPartGenerator>
-                <additionalTraits>1~4</additionalTraits>
             </generalSettings>
 		</alienRace>
         <uiIconPath>Things/Pawns/Humanlikes/Tier3/ATR_TierThreeExemplar</uiIconPath>
@@ -50,7 +55,7 @@
 			<ArmorRating_Sharp>0.50</ArmorRating_Sharp>
             <MHC_MaintenanceRetention>1.4</MHC_MaintenanceRetention>
             <MHC_NutritionalIntakeEfficiency>0.25</MHC_NutritionalIntakeEfficiency>
-            <MHC_ChargingSpeed>1.5</MHC_ChargingSpeed>
+            <MHC_ChargingSpeed>1.1</MHC_ChargingSpeed>
 			<Mass>144</Mass>
 		</statBases>
 		<tools>
@@ -103,7 +108,6 @@
 		<race>
 			<body>ATR_AndroidBody</body>
 			<baseHealthScale>1.2</baseHealthScale>
-            <baseHungerRate>0.8</baseHungerRate>
 			<baseBodySize>1.4</baseBodySize>
 		</race>
         <recipes>

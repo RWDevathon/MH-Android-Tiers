@@ -6,6 +6,11 @@
 		<label>T4 Android</label>
 		<description>The pinnacle of known android theory and practice, the class of tier four androids is marked by the possession of a special AI persona core. While these cores are ultratech technology, the chassis and internals are all high spacer technology. \n\nTier four androids are a cut above the rest, and they know it too - ego complexes and disdain toward others are very common amongst them.</description>
 		<alienRace>
+            <raceRestriction>
+				<traitList>
+					<li>ATR_FeelingsTowardOrganics</li>
+				</traitList>
+            </raceRestriction>
 			<graphicPaths>
                 <body>
                     <path>Things/Pawns/Humanlikes/Tier4/body/Naked_None</path>
@@ -27,13 +32,13 @@
 			</graphicPaths>
             <generalSettings>
                 <alienPartGenerator>
+					<headBodyPartDef>ATR_MechanicalHead</headBodyPartDef>
 					<headTypes>
                         <li>ATR_Tier4_Male</li>
                         <li>ATR_Tier4_Female</li>
                         <li>ATR_Tier4_None</li>
                     </headTypes>
                 </alienPartGenerator>
-                <additionalTraits>1~4</additionalTraits>
             </generalSettings>
 		</alienRace>
         <uiIconPath>Things/Pawns/Humanlikes/Tier4/ATR_TierFourExemplar</uiIconPath>
@@ -51,7 +56,7 @@
 			<ArmorRating_Sharp>0.50</ArmorRating_Sharp>
             <MHC_MaintenanceRetention>1.8</MHC_MaintenanceRetention>
             <MHC_NutritionalIntakeEfficiency>0.25</MHC_NutritionalIntakeEfficiency>
-            <MHC_ChargingSpeed>2</MHC_ChargingSpeed>
+            <MHC_ChargingSpeed>1.1</MHC_ChargingSpeed>
 			<Mass>84</Mass>
 		</statBases>
 		<tools>
@@ -104,7 +109,7 @@
 		<race>
 			<body>ATR_AndroidBody</body>
 			<baseHealthScale>1.4</baseHealthScale>
-			<baseHungerRate>0.6</baseHungerRate>
+			<baseHungerRate>0.85</baseHungerRate>
 			<baseBodySize>1.1</baseBodySize>
 		</race>
         <recipes>

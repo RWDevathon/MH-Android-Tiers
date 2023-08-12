@@ -218,7 +218,7 @@
 		<defName>ATR_MechAdulthoodRobber</defName>
 		<title>Bank robber</title>
 		<titleShort>Robber</titleShort>
-		<baseDesc>{PAWN_nameDef} needed a way to get offworld after {PAWN_possessive} homeworld outlawed androids. A visit to a few banks and a few new friends later, {PAWN_pronoun} got offworld.</baseDesc>
+		<baseDesc>{PAWN_nameDef} needed a way to get offworld after {PAWN_possessive} homeworld outlawed androids. A few bank visits and a few new friends later, {PAWN_pronoun} got offworld with a new identity and no trail.</baseDesc>
 		<bodyTypeGlobal>Male</bodyTypeGlobal>
 		<slot>Adulthood</slot>
 		<spawnCategories>
@@ -243,7 +243,7 @@
 		<defName>ATR_MechAdulthoodBountyHunter</defName>
 		<title>Android bounty hunter</title>
 		<titleShort>Bounty hunter</titleShort>
-		<baseDesc>{PAWN_nameDef} had a knack for catching people. {PAWN_pronoun} chose to sell that skill to the highest bidder, which usually meant hunting innocent family members of wealthy individuals for whatever reason {PAWN_possessive} gave. A bounty is a bounty, even if it is not legally offered.</baseDesc>
+		<baseDesc>{PAWN_nameDef} had a knack for catching people. {PAWN_pronoun} chose to sell that skill to the highest bidder, which usually meant hunting innocent family members of wealthy individuals for whatever reason {PAWN_possessive} employers gave. A bounty is a bounty, even if it is not legally offered.</baseDesc>
 		<bodyTypeGlobal>Male</bodyTypeGlobal>
 		<slot>Adulthood</slot>
 		<spawnCategories>
@@ -287,7 +287,7 @@
 		<defName>ATR_MechAdulthoodNarcoticPharmacist</defName>
 		<title>Narcotic pharmacist</title>
 		<titleShort>Pharmacist</titleShort>
-		<baseDesc>Organics are easily manipulated into states of stupor and ecstasy via drugs. {PAWN_nameDef}'s specialty was making those drugs cheaply and all too efficient. {PAWN_possessive} clients adored {PAWN_objective}, but perhaps for the wrong reasons.</baseDesc>
+		<baseDesc>Organics are easily manipulated into states of stupor and ecstasy via drugs. {PAWN_nameDef}'s specialty was making those drugs cheaply and all too efficiently. {PAWN_possessive} clients adored {PAWN_objective}, but perhaps for the wrong reasons.</baseDesc>
 		<bodyTypeGlobal>Male</bodyTypeGlobal>
 		<slot>Adulthood</slot>
 		<spawnCategories>
@@ -345,7 +345,7 @@
 		<defName>ATR_MechAdulthoodCoghead</defName>
 		<title>Medieval coghead</title>
 		<titleShort>Coghead</titleShort>
-		<baseDesc>Androids occasionally end in the hands of medieval societies who do not immediately destroy them. {PAWN_nameDef} was one such android, who was permitted to live as long as it served {PAWN_pronoun} new lord well. Naturally, {PAWN_nameDef} escaped at its first opportunity.</baseDesc>
+		<baseDesc>Androids occasionally end up in the hands of medieval societies who do not immediately destroy them. {PAWN_nameDef} was one such android, who was permitted to live as long as it served {PAWN_pronoun} new lord well as a gladiator. {PAWN_nameDef} escaped not long after.</baseDesc>
 		<bodyTypeGlobal>Male</bodyTypeGlobal>
 		<slot>Adulthood</slot>
 		<spawnCategories>
@@ -429,7 +429,7 @@
 		<defName>ATR_MechAdulthoodEscapee</defName>
 		<title>Escaped convict</title>
 		<titleShort>Escapee</titleShort>
-		<baseDesc>{PAWN_nameDef} was a prison convict for violent crimes. Those crimes seemed to be good practice, though, as it wasn't long before {PAWN_pronoun} broke out of prison and escaped offworld.</baseDesc>
+		<baseDesc>{PAWN_nameDef} was a prison convict for violent crimes. Those crimes proved to be good practice, though, as it wasn't long before {PAWN_pronoun} committed more crimes to break out and escape offworld.</baseDesc>
 		<bodyTypeGlobal>Male</bodyTypeGlobal>
 		<slot>Adulthood</slot>
 		<spawnCategories>
@@ -458,7 +458,7 @@
 		<defName>ATR_MechAdulthoodGangSoldier</defName>
 		<title>Gang soldier</title>
 		<titleShort>Soldier</titleShort>
-		<baseDesc>{PAWN_nameDef} was part of an android gang on {PAWN_possessive} home planet. {PAWN_pronoun} fought rival gangs, police, and occasionally {PAWN_pronoun} other gang members.</baseDesc>
+		<baseDesc>{PAWN_nameDef} was part of an android gang on {PAWN_possessive} home planet. {PAWN_pronoun} fought rival gangs, police, and occasionally {PAWN_possessive} other gang members.</baseDesc>
 		<bodyTypeGlobal>Male</bodyTypeGlobal>
 		<slot>Adulthood</slot>
 		<spawnCategories>

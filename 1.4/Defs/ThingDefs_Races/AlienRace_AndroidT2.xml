@@ -6,6 +6,11 @@
 		<label>T2 Android</label>
 		<description>The most common tier of androids, tier two androids are classified as the lowest specifications required for fully autonomous sapience. When fully clothed or when viewed from afar, they are easily mistaken for shorter, scrawnier humans. Indeed, tier two intelligences are often the most humanlike and most likely to seek integration into human society.</description>
 		<alienRace>
+            <raceRestriction>
+				<traitList>
+					<li>ATR_FeelingsTowardOrganics</li>
+				</traitList>
+            </raceRestriction>
 			<graphicPaths>
                 <body>
                     <path>Things/Pawns/Humanlikes/Tier2/body/Naked_None</path>
@@ -27,13 +32,13 @@
 			</graphicPaths>
             <generalSettings>
                 <alienPartGenerator>
+					<headBodyPartDef>ATR_MechanicalHead</headBodyPartDef>
 					<headTypes>
                         <li>ATR_Tier2_Male</li>
                         <li>ATR_Tier2_Female</li>
                         <li>ATR_Tier2_None</li>
                     </headTypes>
                 </alienPartGenerator>
-                <additionalTraits>0~3</additionalTraits>
             </generalSettings>
 		</alienRace>
         <uiIconPath>Things/Pawns/Humanlikes/Tier2/ATR_TierTwoExemplar</uiIconPath>
@@ -49,7 +54,7 @@
 			<ArmorRating_Sharp>0.25</ArmorRating_Sharp>
             <MHC_MaintenanceRetention>1</MHC_MaintenanceRetention>
             <MHC_NutritionalIntakeEfficiency>0.5</MHC_NutritionalIntakeEfficiency>
-            <MHC_ChargingSpeed>1</MHC_ChargingSpeed>
+            <MHC_ChargingSpeed>1.5</MHC_ChargingSpeed>
 			<Mass>96</Mass>
 		</statBases>
 		<tools>
@@ -102,6 +107,7 @@
 		<race>
 			<body>ATR_AndroidBody</body>
 			<baseBodySize>0.8</baseBodySize>
+            <baseHungerRate>0.8</baseHungerRate>
 		</race>
         <recipes>
             <li>MHC_CoolantInjection</li>

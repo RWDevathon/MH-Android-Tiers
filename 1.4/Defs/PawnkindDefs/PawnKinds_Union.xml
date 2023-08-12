@@ -88,6 +88,25 @@
         </inventoryOptions>
         <initialWillRange>0~0</initialWillRange>
         <initialResistanceRange>17~26</initialResistanceRange>
+        <requiredWorkTags>
+            <li>Violent</li>
+        </requiredWorkTags>
+        <skills>
+            <li>
+                <skill>Shooting</skill>
+                <range>4~8</range>
+            </li>
+            <li>
+                <skill>Melee</skill>
+                <range>4~8</range>
+            </li>
+        </skills>
+        <modExtensions>
+            <li Class="MechHumanlikes.MDR_ProgrammableDroneKindExtension" MayRequire="Killathon.MechanicalHumanlikes.MechDronesReprogrammed">
+                <discretionaryDirectives>1~2</discretionaryDirectives>
+                <discretionaryComplexity>5~20</discretionaryComplexity>
+            </li>
+        </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="ATR_AndroidCollectivePawnKindBase">
