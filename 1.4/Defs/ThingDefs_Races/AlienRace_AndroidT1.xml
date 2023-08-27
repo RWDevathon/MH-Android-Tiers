@@ -51,7 +51,8 @@
             <MHC_MaintenanceRetention>0.75</MHC_MaintenanceRetention>
             <MHC_NutritionalIntakeEfficiency>0.9</MHC_NutritionalIntakeEfficiency>
             <MHC_ChargingSpeed>1.75</MHC_ChargingSpeed>
-            <MDR_ComplexityLimit MayRequire="Killathon.MechanicalHumanlikes.MechDronesReprogrammed">20</MDR_ComplexityLimit>
+            <MDR_ComplexityLimit MayRequire="Killathon.MechanicalHumanlikes.MechDronesReprogrammed">15</MDR_ComplexityLimit>
+            <MDR_SkillLimit MayRequire="Killathon.MechanicalHumanlikes.MechDronesReprogrammed">6</MDR_SkillLimit>
 			<Mass>60</Mass>
 		</statBases>
 		<tools>
