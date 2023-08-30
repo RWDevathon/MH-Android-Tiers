@@ -55,6 +55,8 @@
             <MHC_MaintenanceRetention>1</MHC_MaintenanceRetention>
             <MHC_NutritionalIntakeEfficiency>0.5</MHC_NutritionalIntakeEfficiency>
             <MHC_ChargingSpeed>1.5</MHC_ChargingSpeed>
+            <MDR_ComplexityLimit MayRequire="Killathon.MechanicalHumanlikes.MechDronesReprogrammed">30</MDR_ComplexityLimit>
+            <MDR_SkillLimit MayRequire="Killathon.MechanicalHumanlikes.MechDronesReprogrammed">7</MDR_SkillLimit>
 			<Mass>96</Mass>
 		</statBases>
 		<tools>
@@ -146,6 +148,9 @@
             <li MayRequire="Killathon.SkyMind.SkyMindNetwork" Class="SkyMind.SMN_PawnSkyMindExtension">
                 <defaultTransceiverImplant>ATR_AutonomousCore</defaultTransceiverImplant>
                 <defaultReceiverImplant>ATR_ReceiverCore</defaultReceiverImplant>
+            </li>
+            <li Class="MechHumanlikes.MDR_ProgrammableDroneExtension" MayRequire="Killathon.MechanicalHumanlikes.MechDronesReprogrammed">
+                <maxDirectives>4</maxDirectives>
             </li>
 		</modExtensions>
 		<butcherProducts>

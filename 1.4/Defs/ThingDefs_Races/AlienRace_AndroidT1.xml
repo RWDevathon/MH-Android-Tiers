@@ -148,7 +148,7 @@
                 <defaultReceiverImplant>ATR_ReceiverCore</defaultReceiverImplant>
             </li>
             <li Class="MechHumanlikes.MDR_ProgrammableDroneExtension" MayRequire="Killathon.MechanicalHumanlikes.MechDronesReprogrammed">
-                <maxDirectives>5</maxDirectives>
+                <maxDirectives>3</maxDirectives>
             </li>
 		</modExtensions>
 		<butcherProducts>
