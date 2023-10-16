@@ -25,7 +25,7 @@
 
   <ATR_MechAdulthoodRiotPolice.title>Офицер полиции</ATR_MechAdulthoodRiotPolice.title>
   <ATR_MechAdulthoodRiotPolice.titleShort>Офицер</ATR_MechAdulthoodRiotPolice.titleShort>
-  <ATR_MechAdulthoodRiotPolice.baseDesc>В рамках уникальной линии правоохранительных органов, состоящий из андроидов-полицейских, {PAWN_nameDef} {PAWN_gender ? был : была} {PAWN_gender ? назначен : назначена} контролировать вышедшие из-под контроля беспорядки любыми доступными средствами.</ATR_MechAdulthoodRiotPolice.baseDesc>
+  <ATR_MechAdulthoodRiotPolice.baseDesc>{PAWN_nameDef} {PAWN_gender ? поступил : поступила} на службу в городскую полицию, где {PAWN_objective} было поручено подавлять вышедшие из-под контроля беспорядки, любыми доступными средствами.</ATR_MechAdulthoodRiotPolice.baseDesc>
 
   <ATR_MechAdulthoodMercenaryBodyguard.title>Телохранитель</ATR_MechAdulthoodMercenaryBodyguard.title>
   <ATR_MechAdulthoodMercenaryBodyguard.titleShort>Телохранитель</ATR_MechAdulthoodMercenaryBodyguard.titleShort>
@@ -217,7 +217,7 @@
 
   <ATR_MechAdulthoodSniper.title>Военный снайпер</ATR_MechAdulthoodSniper.title>
   <ATR_MechAdulthoodSniper.titleShort>Снайпер</ATR_MechAdulthoodSniper.titleShort>
-  <ATR_MechAdulthoodSniper.baseDesc>{PAWN_nameDef} {PAWN_gender ? нашёл : нашла} математические и логические трудности точной стрельбы оружием на больших расстояниях, захватывающими. Правительство оценило боевые навыки {PAWN_nameDef} и назначило {PAWN_possessive} командиром особой боевой группы андроидов снайперов. Позже {PAWN_nameDef} {PAWN_gender ? был : была} {PAWN_gender ? награжден : награждена} орденом за быстрое и чёткое выполнение поставленных задач по ликвидации противника.</ATR_MechAdulthoodSniper.baseDesc>
+  <ATR_MechAdulthoodSniper.baseDesc>{PAWN_nameDef} {PAWN_gender ? нашёл : нашла} математические и логические трудности точной стрельбы оружием на больших расстояниях, захватывающими. Правительство оценило боевые навыки {PAWN_nameDef} и назначило {PAWN_possessive} в боевую группу, использующую специализированное снайперское оборудование. {PAWN_nameDef} никогда особенно не {PAWN_gender ? заботился : заботилась} о том, что именно окажется в конце траектории полёта пули.</ATR_MechAdulthoodSniper.baseDesc>
 
   <ATR_MechAdulthoodTerraformer.title>Планетарный терраформер</ATR_MechAdulthoodTerraformer.title>
   <ATR_MechAdulthoodTerraformer.titleShort>Терраформер</ATR_MechAdulthoodTerraformer.titleShort>
