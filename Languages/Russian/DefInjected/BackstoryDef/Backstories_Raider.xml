@@ -31,7 +31,7 @@
 
   <ATR_MechAdulthoodRobber.title>Грабитель банка</ATR_MechAdulthoodRobber.title>
   <ATR_MechAdulthoodRobber.titleShort>Грабитель</ATR_MechAdulthoodRobber.titleShort>
-  <ATR_MechAdulthoodRobber.baseDesc>{PAWN_nameDef} нужны были средства, чтобы покинуть планету, после того, как {PAWN_possessive} правительство, объявила андроидов вне закона. Знакомство с нужными людьми и визит в несколько государственных банков, позволило {PAWN_objective} покинуть планету.</ATR_MechAdulthoodRobber.baseDesc>
+  <ATR_MechAdulthoodRobber.baseDesc>{PAWN_nameDef} нужны были средства, чтобы покинуть планету, после того, как {PAWN_possessive} правительство, объявила андроидов вне закона. Знакомство с нужными людьми и визит в несколько государственных банков, позволило {PAWN_objective} покинуть планету новой личностью.</ATR_MechAdulthoodRobber.baseDesc>
 
   <ATR_MechAdulthoodBountyHunter.title>Охотник за головами</ATR_MechAdulthoodBountyHunter.title>
   <ATR_MechAdulthoodBountyHunter.titleShort>Охотник за головами</ATR_MechAdulthoodBountyHunter.titleShort>
@@ -43,7 +43,7 @@
 
   <ATR_MechAdulthoodNarcoticPharmacist.title>Нарколог фармацевт</ATR_MechAdulthoodNarcoticPharmacist.title>
   <ATR_MechAdulthoodNarcoticPharmacist.titleShort>Фармацевт</ATR_MechAdulthoodNarcoticPharmacist.titleShort>
-  <ATR_MechAdulthoodNarcoticPharmacist.baseDesc>Органическими видами очень легко манипулировать при помощи наркотиков. Специализацией {PAWN_nameDef}, было изготовление этих наркотиков, вызывающих крайне сильную зависимость. Клиенты обожали {PAWN_possessive}, но, был ли у них выбор?</ATR_MechAdulthoodNarcoticPharmacist.baseDesc>
+  <ATR_MechAdulthoodNarcoticPharmacist.baseDesc>Органическими видами очень легко манипулировать при помощи наркотиков. Специализацией {PAWN_nameDef}, было дешёвое и эффективное изготовление этих наркотиков, вызывающих крайне сильную зависимость. Клиенты обожали {PAWN_possessive}, но, был ли у них выбор?</ATR_MechAdulthoodNarcoticPharmacist.baseDesc>
 
   <ATR_MechAdulthoodSlaveSurvivor.title>Выживший раб</ATR_MechAdulthoodSlaveSurvivor.title>
   <ATR_MechAdulthoodSlaveSurvivor.titleShort>Раб</ATR_MechAdulthoodSlaveSurvivor.titleShort>
@@ -51,7 +51,7 @@
 
   <ATR_MechAdulthoodCoghead.title>Средневековый тупица</ATR_MechAdulthoodCoghead.title>
   <ATR_MechAdulthoodCoghead.titleShort>Тупица</ATR_MechAdulthoodCoghead.titleShort>
-  <ATR_MechAdulthoodCoghead.baseDesc>Изредка андроиды оказывались в руках средневековых обществ. {PAWN_nameDef} {PAWN_gender ? был : была} одним из таких андроидов, {PAWN_objective} разрешалось жить столько, сколько {PAWN_pronoun} {PAWN_gender ? служил : служила} своему господину. Естественно, {PAWN_nameDef} {PAWN_gender ? сбежал : сбежала} при первой возможности.</ATR_MechAdulthoodCoghead.baseDesc>
+  <ATR_MechAdulthoodCoghead.baseDesc>Изредка андроиды оказывались в руках средневековых обществ. {PAWN_nameDef} {PAWN_gender ? был : была} одним из таких андроидов, {PAWN_objective} разрешалось жить столько, сколько {PAWN_pronoun} {PAWN_gender ? служил : служила} своему господину в качестве гладиатора. {PAWN_nameDef} {PAWN_gender ? сбежал : сбежала} при первой возможности.</ATR_MechAdulthoodCoghead.baseDesc>
 
   <ATR_MechAdulthoodSlaver.title>Работорговец</ATR_MechAdulthoodSlaver.title>
   <ATR_MechAdulthoodSlaver.titleShort>Работорговец</ATR_MechAdulthoodSlaver.titleShort>
@@ -63,7 +63,7 @@
 
   <ATR_MechAdulthoodEscapee.title>Беглый заключённый</ATR_MechAdulthoodEscapee.title>
   <ATR_MechAdulthoodEscapee.titleShort>Беглец</ATR_MechAdulthoodEscapee.titleShort>
-  <ATR_MechAdulthoodEscapee.baseDesc>{PAWN_nameDef} {PAWN_gender ? провёл : провела} долгое время в заключении, пока снова не {PAWN_gender ? был : была} осуждена за насильственные действия в тюрьме. Однако это преступление оказалось хорошей практикой, поскольку после этого {PAWN_nameDef} {PAWN_gender ? вырвался : вырвалась} из тюрьмы и {PAWN_gender ? сбежал : сбежала} за пределы планеты.</ATR_MechAdulthoodEscapee.baseDesc>
+  <ATR_MechAdulthoodEscapee.baseDesc>{PAWN_nameDef} {PAWN_gender ? провёл : провела} долгое время в заключении, пока снова не {PAWN_gender ? был : была} осуждена за насильственные действия в тюрьме. Однако это преступление оказалось хорошей практикой, поскольку после этого {PAWN_nameDef} {PAWN_gender ? совершил : совершила} больше преступлений и {PAWN_gender ? сбежал : сбежала} за пределы планеты.</ATR_MechAdulthoodEscapee.baseDesc>
 
   <ATR_MechAdulthoodGangSoldier.title>Солдат банды</ATR_MechAdulthoodGangSoldier.title>
   <ATR_MechAdulthoodGangSoldier.titleShort>Бандит</ATR_MechAdulthoodGangSoldier.titleShort>
